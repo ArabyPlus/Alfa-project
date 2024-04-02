@@ -32,6 +32,6 @@ definePageMeta({
 
 //= Page Head
 useHead({
-  titleTemplate: `%s - Home Light`,
+  titleTemplate: "Alfa - Home",
 });
 </script>

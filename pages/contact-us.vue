@@ -26,7 +26,7 @@
   
   //= Page Head
   useHead({
-    titleTemplate: `%s - Contact`,
+    titleTemplate: `Alfa - Contact`,
     bodyAttrs: {
       class: 'index3'
     }
