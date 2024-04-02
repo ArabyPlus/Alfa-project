@@ -78,6 +78,7 @@ export default defineNuxtConfig({
     }
   },
   modules: [
+    'nuxt-icon',
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
         // @ts-expect-error

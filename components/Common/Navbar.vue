@@ -26,8 +26,8 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="icon-bar">
-          <i class="fas fa-bars"></i>
+        <span class="icon-bar text-blue z-10" style="color: blue">
+          <i class="fas fa-bars text-blue z-10" style="color: blue"></i>
         </span>
       </button>
 
@@ -35,10 +35,14 @@
       <div class="collaps navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <NuxtLink class="nav-link" style="color: grey" to="/">Home</NuxtLink>
+            <NuxtLink class="nav-link" style="color: grey" to="/"
+              >Home</NuxtLink
+            >
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" style="color: grey" to="/#about">About</NuxtLink>
+            <NuxtLink class="nav-link" style="color: grey" to="/#about"
+              >About</NuxtLink
+            >
           </li>
 
           <li class="nav-item">
