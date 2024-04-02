@@ -1,0 +1,30 @@
+{
+    "works": [
+        {
+            "image": "/img/portfolio/mas/10.jpg",
+            "title": "La Fontaine",
+            "state_date": "1 NOV 2023",
+            "owner": "-",
+            "main_contractor": "-",
+            "scoup1": "MECHANICAL WORK",
+            "scoup2": "PLUMBING",
+            "scoup3": "INFRA",
+            "scoup4": "FIREFIGHTING",
+            "contract": "32",
+            "hint": ""
+          },
+      {
+        "image": "/img/portfolio/mas/14.jpg",
+        "title": "kempeniski smoking area",
+        "state_date": "1 OCT 2023",
+        "owner": "-",
+        "main_contractor": "SINA SONS",
+        "scoup1": "MECHANICAL WORKS & ELECTRICAL WORKS",
+        "scoup2": "FIRE FIGHTING",
+        "scoup3": "HVAC",
+        "scoup4": "PLUMBING",
+        "contract": "1.5",
+        "hint": ""
+      }
+    ]
+  }
