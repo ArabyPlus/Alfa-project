@@ -52,7 +52,7 @@
                 <div class="item-img-overlay"></div>
               </NuxtLink>
             </div>
-            <div class="info mt-10 text-center h-[400px]">
+            <div class="info mt-10 text-center mb-10 md:h-[400px]">
               <h5>{{ work.title }}</h5>
               <h1>State Date : {{ work.state_date }}</h1>
               <h1>Owner : {{ work.owner }}</h1>
@@ -68,11 +68,9 @@
           </div>
         </div>
       </div>
-      
     </div>
   </section>
 
- 
   <Footer class="mt-30" />
 </template>
 
@@ -91,7 +89,7 @@ definePageMeta({
 
 //= Page Head
 useHead({
-  titleTemplate: 'Alfa - Projects',
+  titleTemplate: "Alfa - Projects",
 });
 onMounted(() => {
   setTimeout(() => {
