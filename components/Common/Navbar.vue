@@ -5,12 +5,12 @@
       <a href="/" class="logo">
         <img
           ref="lr"
-          src="/public/img/logo.PNG"
+          src="/public/img/logoo.png"
           alt="logo"
           v-if="showLogo !== false && !(showDarkLogo && theme === 'light')"
         />
         <img
-          src="/img/logo.png"
+          src="/public/img/logoo.png"
           alt="logo"
           v-if="showDarkLogo && theme === 'light'"
         />

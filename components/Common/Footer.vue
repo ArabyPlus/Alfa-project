@@ -64,7 +64,7 @@
         <div class="col-lg-4">
           <div class="item">
             <div class="logo">
-              <img src="/img/logo.png" alt="" />
+              <img src="/public/img/logoo.png" alt="" />
             </div>
             <div class="social">
               <NuxtLink to="#0"><i class="fab fa-facebook-f"></i></NuxtLink>
