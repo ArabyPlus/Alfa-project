@@ -5,7 +5,7 @@
       <a href="/" class="logo">
         <img
           ref="lr"
-          src="/img/logo.png"
+          src="/public/img/logo.PNG"
           alt="logo"
           v-if="showLogo !== false && !(showDarkLogo && theme === 'light')"
         />
