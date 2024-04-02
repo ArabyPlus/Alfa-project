@@ -46,7 +46,7 @@
               data-background="/img/portfolio/mas/01.jpg"
               :style="`background-image:url('${work.image}')`"
             >
-              <NuxtLink to="#0">
+              <NuxtLink :to="'our-projects/#' + work.id">
                 <div class="item-img-overlay"></div>
               </NuxtLink>
             </div>
