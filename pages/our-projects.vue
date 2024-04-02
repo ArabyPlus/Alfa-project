@@ -38,12 +38,14 @@
         <div class="gallery twsty full-width">
           <!-- gallery item -->
           <div
-          :id="work.id"
+            :id="work.id"
             :class="`items ${work.filter} mt-50 wow fadeInUp`"
             data-wow-delay=".3s"
             v-for="(work, idx) in works.works"
             :key="idx"
           >
+            {{ work.id }}
+
             <div
               class="item-img bg-img wow imago rounded"
               data-background="/img/portfolio/mas/01.jpg"
@@ -53,10 +55,7 @@
                 <div class="item-img-overlay"></div>
               </NuxtLink>
             </div>
-            <div
-              class="info mt-10 text-center mb-10 md:h-[400px]"
-              
-            >
+            <div class="info mt-10 text-center mb-10 md:h-[400px]">
               <h5>{{ work.title }}</h5>
               <h1>State Date : {{ work.state_date }}</h1>
               <h1>Owner : {{ work.owner }}</h1>
@@ -98,6 +97,6 @@ useHead({
 onMounted(() => {
   setTimeout(() => {
     if (window.Isotope) initIsotope();
-  }, 500);
+  }, 0);
 });
 </script>
