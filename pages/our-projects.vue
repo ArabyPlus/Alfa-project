@@ -44,8 +44,6 @@
             v-for="(work, idx) in works.works"
             :key="idx"
           >
-            {{ work.id }}
-
             <div
               class="item-img bg-img wow imago rounded"
               data-background="/img/portfolio/mas/01.jpg"
