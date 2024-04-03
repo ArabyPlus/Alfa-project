@@ -80,6 +80,6 @@ import works from "@/data/home1-light-works.json";
 onMounted(() => {
   setTimeout(() => {
     if (window.Isotope) initIsotope();
-  }, 500);
+  }, 0);
 });
 </script>
