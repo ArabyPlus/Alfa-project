@@ -6,7 +6,6 @@
 
   <!-- <Services /> -->
   <Works />
-  <Vision />
   <Footer class="mt-30" />
 </template>
 

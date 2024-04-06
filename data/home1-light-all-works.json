@@ -32,7 +32,7 @@
       "image": "/img/portfolio/mas/03.jpg",
       "title": "Belle Vie Compound - Emaar ( Alma & Faya )",
       "state_date": "OCT 2022 TO PRESENT",
-      "owner": ": EMAAR COMPANY",
+      "owner": "EMAAR COMPANY",
       "main_contractor": "SOLD CONSTRUCTION",
       "scoup1": "PLUMBING",
       "scoup2": "HVAC",
@@ -44,9 +44,6 @@
       "id": "New-Giza",
       "image": "/img/portfolio/mas/04.jpg",
       "title": "New Giza ( NH-08 )",
-      "state_date": "-",
-      "owner": "-",
-      "main_contractor": "-",
       "scoup1": "PLUMBING",
       "scoup2": "FIREFIGHTING",
       "scoup3": "HVAC",
@@ -54,22 +51,20 @@
       "hint": "A residential complex consisting of 10 residential buildings, each with 4 floors, along with an attached clinic complex and green area surrounding all buildings."
     },
     {
+      "id": "Ministries-District",
       "image": "/img/portfolio/mas/05.jpg",
       "title": "Ministries District, New Administrative Capital",
       "state_date": "JUNE 2018 TO 2020",
-      "owner": "-",
-      "main_contractor": "-",
       "scoup1": "PLUMBING SYSTEM",
       "scoup2": "LANDSCAPE AND INFRASTRUCTURE WORK",
       "contract": "2",
       "hint": "Four administrative buildings: Ministry of Transportation, Ministry of Health and Population, Ministry of Youth and Sports, and Suez Canal Authority, each occupying a 10,000 square meter area with 11 floors and a two-floor basement."
     },
     {
+      "id":"Ben-Zayed-Palace",
       "image": "/img/portfolio/mas/06.jpg",
       "title": "Ben Zayed Palace (MZ) Alamein",
       "state_date": "JAN 2022 TO MAY 2022",
-      "owner": "-",
-      "main_contractor": "-",
       "scoup1": "PLUMBING SYSTEM",
       "scoup2": "FIREFIGHTING SYSTEM",
       "scoup3": "ELECTRICAL SYSTEM",
@@ -78,6 +73,7 @@
       "hint": "BIN ZAYED PALACE ON AN AREA OF 4,000 SQUARE METERS IN ADDITION TO THREE HUGE VILLAS AND FIVE SERVICE BUILDINGS"
     },
     {
+      "id":"Al-Hayah-University",
       "image": "/img/portfolio/mas/07.jpg",
       "title": "Al Hayah University",
       "state_date": "FEB 2023 TO PRESENT",
@@ -91,11 +87,11 @@
       "hint": ""
     },
     {
+      "id" : "Compound-El-Nakheel",
       "image": "/img/portfolio/mas/08.jpg",
       "title": "Compound El-Nakheel",
       "state_date": "OCT 2022 TO PRESENT",
-      "owner": "-",
-      "main_contractor": ": MEPCON",
+      "main_contractor": "MEPCON",
       "scoup1": "MECHANICAL WORK",
       "scoup2": "PLUMBING",
       "scoup3": "INFRA",
@@ -104,11 +100,10 @@
       "hint": "A residential complex owned by the Ministry of Interior comprising 10 villas and 11 residential buildings, surrounded by a large green area. We were contracted to complete all mechanical work for the complex, with a business size reaching 20 million Egyptian pounds."
     },
     {
-      "id":"8",
+      "id":"Ikhmem-Hospital",
       "image": "/img/portfolio/mas/09.jpg",
       "title": "Ikhmem Hospital",
       "state_date": "JUNE 2022 TO PRESENT",
-      "owner": "-",
       "main_contractor": "MEPCON",
       "scoup1": "mechanical work",
       "scoup2": "FIREFIGHTING",
@@ -117,65 +112,46 @@
       "hint": "HOSPITAL OF THE REHABILITATION AND REHABILITATION CENTER OF THE CITY OF IKHMEEM IN SOHAG GOVERNORATE"
     },
     {
+      "id":"La-Fontaine",
       "image": "/img/portfolio/mas/10.jpg",
       "title": "La Fontaine",
       "state_date": "1 NOV 2023",
-      "owner": "-",
-      "main_contractor": "-",
       "scoup1": "MECHANICAL WORK",
       "scoup2": "PLUMBING",
       "scoup3": "INFRA",
       "scoup4": "FIREFIGHTING",
-      "contract": "32",
-      "hint": ""
+      "contract": "32"
     },
     {
+      "id":"Golf-Plaza-Mall",
       "image": "/img/portfolio/mas/11.jpg",
       "title": "Golf Plaza Mall",
       "state_date": "1 JAN 2023",
-      "owner": "-",
-      "main_contractor": "",
       "scoup1": "ELECTRICAL WORKS ALL SYSTEMS",
-      "contract": "30",
-      "hint": ""
+      "contract": "30"
     },
     {
+      "id":"El-Mahmoudya-Civil-Registry",
       "image": "/img/portfolio/mas/12.jpg",
-      "title": "El-Mahmoudya Civi Registry",
-      "state_date": "-",
-      "owner": "-",
+      "title": "El-Mahmoudya Civil Registry",
       "main_contractor": "DEGGERS",
       "scoup1": "MECHANICAL WORKS & ELECTRICAL WORKS ALL SYSTEMS",
       "scoup2": "CIVIL WORKS",
-      "contract": "2.7",
-      "hint": ""
+      "contract": "2.7"
     },
     {
+      "id":"Dar-El-Salam-Police-Station",
       "image": "/img/portfolio/mas/13.jpg",
       "title": "Dar El-Salam Police Station",
       "state_date": "1 FEB 2023",
-      "owner": "-",
       "main_contractor": "KHARASANA COMPANY",
       "scoup1": "MECHANICAL WORKS & ELECTRICAL WORKS ALL SYSTEMS",
       "scoup2": "FIRE FIGHTING",
       "scoup3": "RENORATION OF HVAC",
       "scoup4": "PLUMBING",
-      "contract": "3.8",
-      "hint": ""
-    },
-    {
-      "id": "14",
-      "image": "/img/portfolio/mas/14.jpg",
-      "title": "kempeniski smoking area",
-      "state_date": "1 OCT 2023",
-      "owner": "-",
-      "main_contractor": "SINA SONS",
-      "scoup1": "MECHANICAL WORKS & ELECTRICAL WORKS",
-      "scoup2": "FIRE FIGHTING",
-      "scoup3": "HVAC",
-      "scoup4": "PLUMBING",
-      "contract": "1.5",
-      "hint": ""
+      "contract": "3.8"
     }
+    
   ]
 }
+

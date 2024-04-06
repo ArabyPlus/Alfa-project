@@ -4,16 +4,20 @@
   "text": "Architecture bibendum pharetra eleifend. Suspendisse vel volutpat purus, sit amet bibendum nisl. Cras mollis turpis a ipsum ultes, nec condimentum ipsum consequat. Mauris vitae consequat nibh, vitae interdum mi.",
   "numbers": [
     {
-      "value": "352",
+      "value": "250+",
+      "title": "Happy Customers"
+    },
+    {
+      "value": "6000",
       "title": "Projects Completed"
     },
     {
-      "value": "567",
-      "title": "Satisfied Clients"
+      "value": "1.8K+",
+      "title": "Available Resources"
     },
     {
-      "value": "17",
-      "title": "Awards Won"
+      "value": "11K+",
+      "title": "Subscribers"
     }
   ]
 }

@@ -6,7 +6,7 @@
           <div class="row justify-content-center">
             <div class="col-lg-6 col-md-8 col-sm-10">
               <h4 class="playfont wow flipInX" data-wow-delay=".5s">
-                Our Projects
+                Recent Projects
               </h4>
               <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">
                 Best Works
@@ -52,9 +52,9 @@
             </div>
             <div class="info mt-10 text-center">
               <h5>{{ work.title }}</h5>
-              <h1>State Date : {{ work.state_date }}</h1>
-              <h1>Owner : {{ work.owner }}</h1>
-              <h1>Main Contractor : {{ work.main_contractor }}</h1>
+              <h1 v-if="work.state_date">State Date : {{ work.state_date }}</h1>
+              <h1 v-if="work.owner">Owner : {{ work.owner }}</h1>
+              <h1 v-if="work.main_contractor">Main Contractor : {{ work.main_contractor }}</h1>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@
           to="/our-projects"
           class="btn-curve rounded btn-bord bg-blue-700 btn-lit mt-10"
         >
-          <span>View All</span>
+          <span>All Projects</span>
         </NuxtLink>
       </div>
     </div>

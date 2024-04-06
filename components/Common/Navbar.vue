@@ -40,14 +40,11 @@
             >
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" style="color: grey" to="/#about"
+            <NuxtLink class="nav-link" style="color: grey" to="/about"
               >About</NuxtLink
             >
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" style="color: grey" href="/#blogs">Blogs</a>
-          </li>
           <li class="nav-item">
             <a class="nav-link" style="color: grey" href="/our-projects"
               >Our Projects</a

@@ -49,20 +49,20 @@
               data-background="/img/portfolio/mas/01.jpg"
               :style="`background-image:url('${work.image}')`"
             >
-              <NuxtLink to="#0">
+              <NuxtLink :to="work.id">
                 <div class="item-img-overlay"></div>
               </NuxtLink>
             </div>
             <div class="info mt-10 text-center mb-10 md:h-[400px]">
               <h5>{{ work.title }}</h5>
-              <h1>State Date : {{ work.state_date }}</h1>
-              <h1>Owner : {{ work.owner }}</h1>
-              <h1>Main Contractor : {{ work.main_contractor }}</h1>
-              <h5 class="mt-2">Scoup Of Work :</h5>
+              <h1 v-if="work.state_date">State Date : {{ work.state_date }}</h1>
+              <h1 v-if="work.owner">Owner : {{ work.owner }}</h1>
+              <h1 v-if=" work.main_contractor">Main Contractor : {{ work.main_contractor }}</h1>
+              <h5 class="mt-2" v-if=" work.scoup1">Scoup Of Work :</h5>
               <h1>{{ work.scoup1 }}</h1>
               <h1>{{ work.scoup2 }}</h1>
-              <h1>{{ work.scoup3 }}</h1>
-              <h1>{{ work.scoup4 }}</h1>
+              <h1 v-if="work.scoup3">{{ work.scoup3 }}</h1>
+              <h1 v-if="work.scoup4">{{ work.scoup4 }}</h1>
               <h5 class="mt-2">Contract Price : {{ work.contract }} million</h5>
               <h1 class="mt-2">{{ work.hint }}</h1>
             </div>
