@@ -2,19 +2,14 @@
   <section class="about section-padding" id="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5">
-          <div class="exp-img wow fadeInUp" data-wow-delay=".3s">
-            <img src="/public/img/line-pattern-color.png" alt="" />
-          </div>
-        </div>
-        <div class="col-lg-7 valign">
-          <div class="exp-content wow fadeInUp" data-wow-delay=".3s">
+        <div class=" w-100">
+          <div class="exp-content wow fadeInUp text-center" data-wow-delay=".3s">
             <h6 class="sub-title">{{ $t('Some Numbers Of Our Company') }}</h6>
             
-            <div class="numbers mt-50">
+            <div class="numbers mt-50 w-100">
               <div class="row">
                 <div
-                  class="col-md-4 flex gap-20 text-center"
+                  class=" flex flex-col md:flex-row justify-around text-center w-100"
                 >
                   <div class="item">
                     <h3>
