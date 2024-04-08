@@ -78,6 +78,7 @@ export default defineNuxtConfig({
     }
   },
   modules: [
+    '@nuxt/fonts',
     'nuxt-icon',
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', (config) => {
@@ -85,19 +86,28 @@ export default defineNuxtConfig({
         config.plugins.push(vuetify({ autoImport: true }))
       })
     },
-    //...
-  ],
-  build: {
-    transpile: [
-      "vue3-count-to",
-      'vuetify',
-    ]
-  },
-  vite: {
-    vue: {
-      template: {
-        transformAssetUrls,
+    '@nuxtjs/i18n'],
+  i18n: {
+    lazy: true,
+    langDir: "locales",
+    strategy:"no_prefix",
+    locales: [
+      {
+        code: 'en-US',
+        iso: 'en-US',
+        name: 'English',
+        file: "en-US.json",
+        dir: 'ltr'
       },
-    },
+      {
+        code: 'ar-AR',
+        iso: 'ar-AR',
+        name: 'Arabic',
+        file: "ar-AR.json",
+        dir: 'rtl'
+      },
+    ],
+    defaultLocale: 'en-US',
+
   },
 })

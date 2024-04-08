@@ -1216,7 +1216,7 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
-  background: transparent;
+  background: white;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 999;
   min-height: 80px;
@@ -1862,7 +1862,7 @@ body {
   right: 40px;
   bottom: 40px;
   background: rgba(255, 255, 255, 0.95);
-  z-index: -1;
+  z-index: -10;
 }
 .about .exp-img .img .since {
   position: absolute;
@@ -1905,7 +1905,7 @@ body {
   position: relative;
   z-index: 2;
 }
-.about .exp-content:after {
+/* .about .exp-content:after {
   content: "";
   width: 200px;
   height: 250px;
@@ -1913,8 +1913,8 @@ body {
   top: -40px;
   right: -40px;
   border: 10px solid #fafafa;
-  z-index: -1;
-}
+  z-index: -100;
+} */
 .about .exp-content.nopat:after {
   display: none;
 }

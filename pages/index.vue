@@ -1,4 +1,4 @@
-<template>
+<template >
   <Loading />
   <Navbar theme="light" />
   <Header />

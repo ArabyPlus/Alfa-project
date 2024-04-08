@@ -1,4 +1,4 @@
-<template>
+<template >
   <CommonMouseCursor />
   <CommonScrollToTop />
   <slot />

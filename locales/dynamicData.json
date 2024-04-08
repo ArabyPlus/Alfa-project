@@ -32,7 +32,7 @@
       "image": "/img/portfolio/mas/03.jpg",
       "title": "Belle Vie Compound - Emaar ( Alma & Faya )",
       "state_date": "OCT 2022 TO PRESENT",
-      "owner": "EMAAR COMPANY",
+      "owner": ": EMAAR COMPANY",
       "main_contractor": "SOLD CONSTRUCTION",
       "scoup1": "PLUMBING",
       "scoup2": "HVAC",
@@ -48,7 +48,7 @@
       "scoup2": "FIREFIGHTING",
       "scoup3": "HVAC",
       "contract": "2",
-      "hinter": "A residential complex consisting of 10 residential buildings, each with 4 floors, along with an attached clinic complex and green area surrounding all buildings."
+      "hint": "A residential complex consisting of 10 residential buildings, each with 4 floors, along with an attached clinic complex and green area surrounding all buildings."
     }
   ]
 }

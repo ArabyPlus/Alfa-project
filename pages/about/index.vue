@@ -1,8 +1,8 @@
 <template>
   <Loading />
   <Navbar />
-  <Header2 bg="/img/pg2.jpg" title="About Us" />
-  <vision />
+  <Header2 bg="/img/pg2.jpg" :title="aboutUsTranslation" />
+  <Vision />
   <Footer />
 </template>
 
@@ -13,6 +13,11 @@ import Navbar from "@/components/Common/Navbar.vue";
 import Header2 from "@/components/Common/Header2.vue";
 import Contact from "@/components/Contact/index.vue";
 import Footer from "@/components/Common/Footer.vue";
+import { useI18n } from "vue-i18n";
+
+const { t } = useI18n();
+
+const aboutUsTranslation = t("About Us");
 
 //= Page Metadata
 definePageMeta({

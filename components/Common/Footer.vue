@@ -5,27 +5,33 @@
         <div class="col-lg-4">
           <div class="item md-mb50">
             <div class="title">
-              <h5>Contact Us</h5>
+              <h5>{{ $t("Contact Us") }}</h5>
             </div>
             <ul>
               <li>
                 <span class="icon pe-7s-map-marker"></span>
                 <div class="cont">
-                  <h6>Address</h6>
-                  <p>EL-Waha , Nasrcity , Alkhamseen st Building 15, blok 14</p>
+                  <h6>{{ $t("Address") }}</h6>
+                  <p>
+                    {{
+                      $t(
+                        "EL-Waha , Nasrcity , Alkhamseen st Building 15, blok 14"
+                      )
+                    }}
+                  </p>
                 </div>
               </li>
               <li>
                 <span class="icon pe-7s-mail"></span>
                 <div class="cont">
-                  <h6>Email Us</h6>
+                  <h6>{{ $t("Email Us") }}</h6>
                   <p>info@alfaamep.com</p>
                 </div>
               </li>
               <li>
                 <span class="icon pe-7s-call"></span>
                 <div class="cont">
-                  <h6>Call Us</h6>
+                  <h6>{{ $t("Call Us") }}</h6>
                   <p>022 326 20 84</p>
                 </div>
               </li>
@@ -35,7 +41,7 @@
         <div class="col-lg-4">
           <div class="item md-mb50">
             <div class="title">
-              <h5>From Our Projects</h5>
+              <h5>{{ $t("From Our Projects") }}</h5>
             </div>
             <ul>
               <li
@@ -75,12 +81,24 @@
               <NuxtLink to="#0"><i class="fab fa-instagram"></i></NuxtLink>
               <NuxtLink to="#0"><i class="fab fa-youtube"></i></NuxtLink>
             </div>
-            <div class="copy-right">
+            <div
+              class="copy-right flex flex-col justify-center align-items-center" v-if="$i18n.locale == 'ar-AR'" style="direction: rtl;"
+            >
               <p>
-                {{ appData.footerText }}
-                <a href="#0">{{ appData.themeAuthor }}</a
-                >.
+                {{ $t("footerText") }}
+                <a href="#0">{{ appData.themeAuthor }}</a>
+
               </p>
+            </div>
+            <div
+              class="copy-right flex flex-col justify-center align-items-center"
+              v-if="$i18n.locale == 'en-US'"
+            >
+              <p>
+                {{ $t("footerText") }}
+                <a href="#0">{{ appData.themeAuthor }}</a>
+              </p>
+              
             </div>
           </div>
         </div>

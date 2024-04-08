@@ -1,7 +1,8 @@
 <template>
   <Loading />
   <Navbar />
-  <Header2 bg="/img/pg2.jpg" title="Contact Us" />
+  
+  <Header2 bg="/img/pg2.jpg" :title="contactUsTranslation" />
   <Contact />
   <Footer />
 </template>
@@ -18,6 +19,10 @@ import Footer from "@/components/Common/Footer.vue";
 definePageMeta({
   layout: "light",
 });
+
+const { t } = useI18n();
+
+const contactUsTranslation = t("Contact Us");
 
 const title = "Contact Us";
 const fullPath = [{ title: "Contact Us", link: "/contact" }];

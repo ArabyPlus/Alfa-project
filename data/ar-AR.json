@@ -1,0 +1,75 @@
+{
+    "works": [
+        {
+          "id": "Iconic-Tower",
+          "image": "/img/portfolio/mas/01.jpg",
+          "title": "Iconic Tower",
+          "state_date": "MAY 2022 TO PRESENT",
+          "owner": "MEMAR EL MORSHEDY",
+          "main_contractor": "ALFA FOR MEP",
+          "scoup1": "Firefighting system",
+          "scoup2": "Sandplasting and painting workshop",
+          "scoup3": "Plumbing system",
+          "contract": "3",
+          "hint": "78 floors divided into 40 floors of office services, 10 floors of apartments, and 30 floors of a seven-star hotel, with 8 service floors for mechanics and electricity works, in addition to 45,000 square meters with a two-floors basement."
+        },
+        {
+          "id": "Degla-Land-Mark",
+          "image": "/img/portfolio/mas/02.jpg",
+          "title": "Degla Land Mark Compound",
+          "state_date": "MAY 2022 TO PRESENT",
+          "owner": "MEMAR EL MORSHEDY",
+          "main_contractor": "ALFA FOR MEP",
+          "scoup1": "Mechanical work",
+          "scoup2": "Plumbing",
+          "scoup3": "Infra",
+          "scoup4": "Firefighting",
+          "contract": "7",
+          "hint": "A RESIDENTIAL COMPOUND CONSISTING OF MANY HUGE TOWERS, WE CARRIED OUT PLUMBING WORKS IN TOWER 17,WHICH IS A CIRCULAR TOWER CONSISTING OF TWO BASEMENTS AND 11FLOORS, EACH FLOOR CONTAINS 28 APARTMENTS, AND WE HAVE COMPLETED THE FIERFIGHTING WORKS IN THE TOWER BASEMENT, IN ADDITION TO FINISHING THE WORK OF THE EXTERNAL SEWAGE NETWORKS OF THE COMPOUND AND CONNECTING THE WATER SUPPLY NETWORKS TO ALL TOWERS WITHA SIZE OF BUSINESS REACHED 17MILLION EGYPTIAN POUNDS"
+        },
+        {
+          "id": "Belle-Vie",
+          "image": "/img/portfolio/mas/03.jpg",
+          "title": "Belle Vie Compound - Emaar ( Alma & Faya )",
+          "state_date": "OCT 2022 TO PRESENT",
+          "owner": ": EMAAR COMPANY",
+          "main_contractor": "SOLD CONSTRUCTION",
+          "scoup1": "PLUMBING",
+          "scoup2": "HVAC",
+          "scoup3": "FIERFIGHTING",
+          "contract": "15",
+          "hint": "3 buildings, each with an internal area ranging from 1,500 square meters to 2,000 square meters, divided into ground and 3 floors. Additionally, there's another building with an area of 4,000 square meters, featuring a private garage and consisting of ground and 3 floors, with a business size reaching 13 million Egyptian pounds."
+        },
+        {
+          "id": "New-Giza",
+          "image": "/img/portfolio/mas/04.jpg",
+          "title": "New Giza ( NH-08 )",
+          "scoup1": "PLUMBING",
+          "scoup2": "FIREFIGHTING",
+          "scoup3": "HVAC",
+          "contract": "2",
+          "hint": "A residential complex consisting of 10 residential buildings, each with 4 floors, along with an attached clinic complex and green area surrounding all buildings."
+        }
+      ],
+    "Home": "الرئيسية",
+    "About": "من نحن",
+    "Our Projects": "مشروعاتنا",
+    "Contact Us": "تواصل معنا",
+    "One of our projects": "أحد مشروعاتنا",
+    "View All": "مشاهدة جميع المشروعات",
+    "Some Numbers Of Our Company": "بعض أرقام شركتنا",
+    "Happy Customers": "عملاء سعداء",
+    "Completed Projects": "مشروعات مكتملة",
+    "Available Resources": "موارد متاحة",
+    "Subscribers": "متابعون",
+    "Recent Projects": "أحدث المشروعات",
+    "From Our Projects": "من مشروعاتنا",
+    "EL-Waha , Nasrcity , Alkhamseen st Building 15, blok 14": "الواحة ، مدينة نصر ، 15 شارع الخمسي ، بلوك 14",
+    "Address": "العنوان",
+    "Hello": "Bonjour",
+    "World": "Monde"
+    
+   
+    
+   
+}

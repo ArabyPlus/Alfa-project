@@ -11,16 +11,28 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-10 offset-lg-1">
-                  <div class="caption hmone">
+                  <div class="caption hmone" v-if="$i18n.locale == 'en-US'">
                     <h1 data-splitting>
-                      <NuxtLink to="#0">{{ slide.title }}</NuxtLink>
+                      <NuxtLink >{{ slide.title }}</NuxtLink>
                     </h1>
-                    <p class="">One of our projects</p>
+                    <p class="">{{ $t('One of our projects') }}</p>
                     <NuxtLink
                       to="/our-projects"
                       class="btn-curve btn-bord btn-lit mt-30"
                     >
-                      <span>View All</span>
+                      <span>{{ $t('View All') }}</span>
+                    </NuxtLink>
+                  </div>
+                  <div class="caption hmone text-start" style="direction: rtl;" v-if="$i18n.locale == 'ar-AR'" >
+                    <h1 data-splitting>
+                      <NuxtLink >{{ slide.title }}</NuxtLink>
+                    </h1>
+                    <p class="">{{ $t('One of our projects') }}</p>
+                    <NuxtLink
+                      to="/our-projects"
+                      class="btn-curve btn-bord btn-lit mt-30"
+                    >
+                      <span>{{ $t('View All') }}</span>
                     </NuxtLink>
                   </div>
                 </div>

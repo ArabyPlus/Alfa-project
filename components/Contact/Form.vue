@@ -7,10 +7,10 @@
           id="form_name"
           type="text"
           name="name"
-          placeholder="Name"
+          :placeholder="$t('Name')"
           required="required"
           v-model="name"
-          class="text-black"
+          class="text-black text-center"
         />
       </div>
       <div class="form-group">
@@ -18,26 +18,32 @@
           id="form_email"
           type="email"
           name="email"
-          placeholder="Email"
+          :placeholder="$t('Email')"
           required="required"
           v-model="email"
-          class="text-black"
+          class="text-black text-center"
         />
       </div>
       <div class="form-group">
         <textarea
           id="form_message"
           name="message"
-          placeholder="Message"
+          :placeholder="$t('Message')"
           rows="4"
           required="required"
           v-model="message"
-          class="text-black"
+          class="text-black text-center"
         ></textarea>
       </div>
-      <button type="submit" class="btn-curve btn-color" @click="onSubmit">
-        <span>Send Message</span>
-      </button>
+      <div class="button text-center ">
+        <button
+          type="submit"
+          class="btn-curve btn-color"
+          @click="onSubmit"
+        >
+          <span>Send Message</span>
+        </button>
+      </div>
     </div>
   </form>
 </template>

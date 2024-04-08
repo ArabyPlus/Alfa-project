@@ -1,20 +1,24 @@
 <template>
-  <nav ref="navbar" class="navbar navbar-expand-lg">
+  <nav ref="navbar" class="navbar navbar-expand-lg" >
     <div class="container">
       <!-- Logo -->
-      <a href="/" class="logo">
-        <img
-          ref="lr"
-          src="/public/img/logoo.png"
-          alt="logo"
-          v-if="showLogo !== false && !(showDarkLogo && theme === 'light')"
-        />
-        <img
-          src="/public/img/logoo.png"
-          alt="logo"
-          v-if="showDarkLogo && theme === 'light'"
-        />
-      </a>
+      <div class="flex align-items-center align-center gap-6">
+        <NuxtLink to="/" class="logo">
+          <img
+            ref="lr"
+            src="/public/img/logoo.png"
+            alt="logo"
+            v-if="showLogo !== false && !(showDarkLogo && theme === 'light')"
+          />
+
+          <img
+            src="/public/img/logoo.png"
+            alt="logo"
+            v-if="showDarkLogo && theme === 'light'"
+          />
+        </NuxtLink>
+        <LangSwitcher class="font-bold" />
+      </div>
 
       <button
         @click="handleMobileDropdown"
@@ -35,30 +39,31 @@
       <div class="collaps navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <NuxtLink class="nav-link" style="color: grey" to="/"
-              >Home</NuxtLink
-            >
+            <NuxtLink class="nav-link" style="color: grey" to="/">{{
+              $t("Home")
+            }}</NuxtLink>
           </li>
           <li class="nav-item">
             <NuxtLink class="nav-link" style="color: grey" to="/about"
-              >About</NuxtLink
+              >{{ $t('About') }}</NuxtLink
             >
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" style="color: grey" href="/our-projects"
-              >Our Projects</a
+            <NuxtLink class="nav-link" style="color: grey" to="/our-projects"
+              >{{ $t('Our Projects') }}</NuxtLink
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: grey" href="/contact-us"
-              >Contact Us</a
+            <NuxtLink class="nav-link" style="color: grey" href="/contact-us"
+              >{{ $t('Contact Us') }}</NuxtLink
             >
           </li>
         </ul>
       </div>
     </div>
   </nav>
+ 
 </template>
 
 <script setup>
