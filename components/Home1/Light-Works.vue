@@ -1,15 +1,15 @@
 <template>
-  <section class="portfolio section-padding" id="portfolio" >
+  <section class="portfolio section-padding" id="portfolio">
     <div class="container-fluid">
       <div class="container">
         <div class="section-head text-center">
           <div class="row justify-content-center">
             <div class="col-lg-6 col-md-8 col-sm-10">
               <h4 class="playfont wow flipInX" data-wow-delay=".5s">
-                {{ $t('From Our Projects') }}
+                {{ $t("From Our Projects") }}
               </h4>
               <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">
-                {{ $t('Recent Projects') }}
+                {{ $t("Recent Projects") }}
               </h6>
             </div>
           </div>
@@ -33,9 +33,10 @@
           </div>
         </div>
         <!-- gallery -->
+        <!-- IF LANGUAGE IS ENGLISH -->
         <div class="gallery twsty full-width" v-show="$i18n.locale == 'en-US'">
           <!-- gallery item -->
-          
+
           <div
             :class="`items ${work.filter} mt-50 wow fadeInUp`"
             data-wow-delay=".3s"
@@ -52,17 +53,26 @@
               </NuxtLink>
             </div>
             <div class="info mt-10 text-center">
-              <h5>{{ work.title}}</h5>
+              <h5>{{ work.title }}</h5>
               <h1 v-if="work.state_date">State Date : {{ work.state_date }}</h1>
               <h1 v-if="work.owner">Owner : {{ work.owner }}</h1>
-              <h1 v-if="work.main_contractor">Main Contractor : {{ work.main_contractor }}</h1>
-              <h1 v-if="work.hinter"> {{ work.hinter }}</h1>
+              <h1 v-if="work.main_contractor">
+                Main Contractor : {{ work.main_contractor }}
+              </h1>
+              <h1 v-if="work.hinter">{{ work.hinter }}</h1>
             </div>
           </div>
         </div>
-        <div class="gallery twsty full-width" v-show="$i18n.locale == 'ar-AR'" style="direction: rtl;">
+        <!-- IF LANGUAGE IS ENGLISH -->
+        <!-- ============================== -->
+        <!-- IF LANGUAGE IS ARABIC -->
+        <div
+          class="gallery twsty full-width"
+          v-show="$i18n.locale == 'ar-AR'"
+          style="direction: rtl"
+        >
           <!-- gallery item -->
-          
+
           <div
             :class="`items ${work.filter} mt-50 wow fadeInUp`"
             data-wow-delay=".3s"
@@ -79,21 +89,26 @@
               </NuxtLink>
             </div>
             <div class="info mt-10 text-center">
-              <h5>{{ work.title}}</h5>
-              <h1 v-if="work.state_date">تاريخ البدء : {{ work.state_date }}</h1>
+              <h5>{{ work.title }}</h5>
+              <h1 v-if="work.state_date">
+                تاريخ البدء : {{ work.state_date }}
+              </h1>
               <h1 v-if="work.owner">المالك : {{ work.owner }}</h1>
-              <h1 v-if="work.main_contractor">المقاول الرئيسي : {{ work.main_contractor }}</h1>
-              <h1 v-if="work.hinter"> {{ work.hinter }}</h1>
+              <h1 v-if="work.main_contractor">
+                المقاول الرئيسي : {{ work.main_contractor }}
+              </h1>
+              <h1 v-if="work.hinter">{{ work.hinter }}</h1>
             </div>
           </div>
         </div>
+        <!-- IF LANGUAGE IS ARABIC -->
       </div>
       <div class="mx-auto text-center">
         <NuxtLink
           to="/our-projects"
           class="btn-curve rounded btn-bord bg-blue-700 btn-lit mt-10"
         >
-          <span >{{ $t('View All') }}</span>
+          <span>{{ $t("View All") }}</span>
         </NuxtLink>
       </div>
     </div>

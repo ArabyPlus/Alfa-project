@@ -2,7 +2,19 @@
   <Loading />
   <Navbar />
   <Header2 bg="/img/portfolio/mas/07.jpg" title="Al Hayah University" />
+  <UniqueProjectArabic
+    v-if="$i18n.locale == 'ar-AR'"
+    state_date="منذ فبراير 2023"
+    owner="معمار المرشدي"
+    main_contractor="ألفا للمقاولات الهندسية"
+    scoup1="الأعمال الميكانيكية"
+    scoup2="السباكة"
+    scoup3="البنية التحتية"
+    scoup4="مكافحة الحرائق"
+    contract="2.5"
+  />
   <UniqueProject
+    v-if="$i18n.locale == 'en-US'"
     state_date="FEB 2023 TO PRESENT"
     owner="MEMAR EL MORSHEDY"
     main_contractor="ALFA FOR MEP"

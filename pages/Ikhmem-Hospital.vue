@@ -2,7 +2,17 @@
     <Loading />
     <Navbar />
     <Header2 bg="/img/portfolio/mas/09.jpg" title="Ikhmem Hospital" />
-    <UniqueProject
+    <UniqueProjectArabic
+    v-if="$i18n.locale == 'ar-AR'"
+    state_date= "منذ يونيو 2022"
+main_contractor= "MEPCON"
+scoup1= "الأعمال الميكانيكية"
+scoup2= "مكافحة الحرائق"
+scoup3= "تكييف الهواء"
+contract= "2"
+hint= "مستشفى مركز الإعادة والتأهيل في مدينة إخميم بمحافظة سوهاج"
+  />
+    <UniqueProject v-if="$i18n.locale == 'en-US'"
     state_date= "JUNE 2022 TO PRESENT"
       main_contractor= "MEPCON"
       scoup1= "mechanical work"

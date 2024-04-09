@@ -8,10 +8,10 @@
           <div class="row justify-content-center">
             <div class="col-lg-6 col-md-8 col-sm-10">
               <h4 class="playfont wow flipInX" data-wow-delay=".5s">
-                Our Projects
+                {{ $t('Our Projects') }}
               </h4>
               <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">
-                Best Works
+                {{ $t('Best Works') }}
               </h6>
             </div>
           </div>
@@ -35,14 +35,60 @@
           </div>
         </div>
         <!-- gallery -->
-        <div class="gallery twsty full-width">
+         <!-- IF LANGUAGE IS ARABIC -->
+        <div class="gallery twsty full-width" style="direction: rtl;" v-show="$i18n.locale == 'ar-AR'">
           <!-- gallery item -->
+         
+          <div
+            :id="work.id"
+            :class="`items ${work.filter} mt-50 wow fadeInUp`"
+            data-wow-delay=".3s"
+            v-for="(work, idx) in workss.workss"
+            :key="idx"
+            
+          >
+            <div
+              class="item-img bg-img wow imago rounded"
+              data-background="/img/portfolio/mas/01.jpg"
+              :style="`background-image:url('${work.image}')`"
+            >
+              <NuxtLink :to="work.id">
+                <div class="item-img-overlay"></div>
+              </NuxtLink>
+            </div>
+            <div class="info mt-10 text-center mb-10 md:h-[400px]">
+              <h5>{{ work.title }}</h5>
+              <h1 v-if="work.state_date">تاريخ البدء : {{ work.state_date }}</h1>
+              <h1 v-if="work.owner">المالك : {{ work.owner }}</h1>
+              <h1 v-if=" work.main_contractor">المقاول الرئيسي : {{ work.main_contractor }}</h1>
+              <h5 class="mt-2" v-if=" work.scoup1">نطاق العمل :</h5>
+              <h1>{{ work.scoup1 }}</h1>
+              <h1>{{ work.scoup2 }}</h1>
+              <h1 v-if="work.scoup3">{{ work.scoup3 }}</h1>
+              <h1 v-if="work.scoup4">{{ work.scoup4 }}</h1>
+              <h5 class="mt-2">سعر العقد : {{ work.contract }} مليون</h5>
+              <h1 class="mt-2">{{ work.hint }}</h1>
+            </div>
+          </div>
+          <!-- IF LANGUAGE IS ARABIC -->
+         
+          <!-- =============================== -->
+          
+        </div>
+
+<!-- =============================== -->
+        <!-- IF LANGUAGE IS ENGLISH -->
+        <div class="gallery twsty full-width" v-show="$i18n.locale == 'en-US'">
+          <!-- gallery item -->
+          
+          
           <div
             :id="work.id"
             :class="`items ${work.filter} mt-50 wow fadeInUp`"
             data-wow-delay=".3s"
             v-for="(work, idx) in works.works"
             :key="idx"
+            v-show="$i18n.locale == 'en-US'"
           >
             <div
               class="item-img bg-img wow imago rounded"
@@ -67,6 +113,9 @@
               <h1 class="mt-2">{{ work.hint }}</h1>
             </div>
           </div>
+          <!-- IF LANGUAGE IS ENGLISH -->
+          
+          
         </div>
       </div>
     </div>
@@ -79,6 +128,7 @@
 import initIsotope from "@/common/initIsotope";
 
 import works from "@/data/home1-light-all-works.json";
+import workss from "@/data/home1-light-all-works-arabic.json";
 import Navbar from "@/components/Common/Navbar.vue";
 
 import Footer from "@/components/Common/Footer.vue";

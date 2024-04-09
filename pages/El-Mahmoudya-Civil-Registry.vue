@@ -2,7 +2,15 @@
   <Loading />
   <Navbar />
   <Header2 bg="/img/portfolio/mas/12.jpg" title="El-Mahmoudya Civil Registry" />
+  <UniqueProjectArabic
+    v-if="$i18n.locale == 'ar-AR'"
+    main_contractor="DEGGERS"
+    scoup1="أعمال ميكانيكية وكهربائية لجميع الأنظمة"
+    scoup2="أعمال مدنية"
+    contract="2.7"
+  />
   <UniqueProject
+    v-if="$i18n.locale == 'en-US'"
     main_contractor="DEGGERS"
     scoup1="MECHANICAL WORKS & ELECTRICAL WORKS ALL SYSTEMS"
     scoup2="CIVIL WORKS"

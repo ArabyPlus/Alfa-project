@@ -1,0 +1,155 @@
+{
+  "workss": [
+    {
+      "id": "Iconic-Tower",
+      "image": "/img/portfolio/mas/01.jpg",
+      "title": "Iconic Tower",
+      "state_date": "منذ مايو 2022",
+      "owner": "معمار المرشدى",
+      "main_contractor": "ألفا للمقاولات الهندسية",
+      "scope1": "نظام مكافحة الحرائق",
+      "scope2": "ورشة الرمل والطلاء",
+      "scope3": "نظام السباكة",
+      "contract": "3",
+      "hint": "78 طابقًا مقسمة إلى 40 طابقًا للخدمات المكتبية، و 10 طوابق للشقق، و 30 طابقًا لفندق سبع نجوم، بالإضافة إلى 8 طوابق خدمية للأعمال الميكانيكية والكهربائية، بالإضافة إلى 45،000 متر مربع مع بدرومين."
+    },
+    {
+      "id": "Degla-Land-Mark",
+      "image": "/img/portfolio/mas/02.jpg",
+      "title": "Degla Land Mark Compound",
+      "state_date": "منذ مايو 2022",
+      "owner": "معمار المرشدى",
+      "main_contractor": "ألفا للمقاولات الهندسية",
+      "scoup1": "الأعمال الميكانيكية",
+      "scoup2": "السباكة",
+      "scoup3": "البنية التحتية",
+      "scoup4": "مكافحة الحرائق",
+      "contract": "7",
+      "hint": "مجمع سكني يتألف من عدة أبراج ضخمة، قمنا بأعمال السباكة في برج 17، وهو برج دائري يتألف من طابقين سفليين و11 طابقًا، حيث يحتوي كل طابق على 28 شقة، وقمنا بإتمام أعمال مكافحة الحرائق في بدروم البرج، بالإضافة إلى إنهاء أعمال شبكات الصرف الخارجية للمجمع وربط شبكات التوريد المائي بجميع الأبراج بتكلفة تقدر بـ 17 مليون جنيه مصري."
+    },
+    {
+      "id": "Belle-Vie",
+      "image": "/img/portfolio/mas/03.jpg",
+      "title": "Belle Vie Compound - Emaar ( Alma & Faya )",
+      "state_date": "منذ أكتوبر 2022",
+      "owner": "شركة إعمار",
+      "main_contractor": "شركة سولد للإنشاءات",
+      "scoup1": "السباكة",
+      "scoup2": "تكييف الهواء",
+      "scoup3": "مكافحة الحرائق",
+      "contract": "15",
+      "hint": "3 مبانٍ، كل منها بمساحة داخلية تتراوح بين 1,500 متر مربع و 2,000 متر مربع، مقسمة إلى الطابق الأرضي و 3 طوابق. بالإضافة إلى ذلك، هناك مبنى آخر بمساحة 4,000 متر مربع، يتميز بموقف سيارات خاص ويتكون من الطابق الأرضي و 3 طوابق، بتكلفة عمل تبلغ 13 مليون جنيه مصري."
+    },
+    {
+      "id": "New-Giza",
+      "image": "/img/portfolio/mas/04.jpg",
+      "title": "New Giza ( NH-08 )",
+      "scoup1": "السباكة",
+      "scoup2": "مكافحة الحرائق",
+      "scoup3": "تكييف الهواء",
+      "contract": "2",
+      "hint": "مجمع سكني يتألف من 10 مبانٍ سكنية، كل منها بـ 4 طوابق، بالإضافة إلى مجمع عيادات ملحق ومساحة خضراء تحيط بجميع المباني."
+    },
+    {
+      "id": "Ministries-District",
+      "image": "/img/portfolio/mas/05.jpg",
+      "title": "Ministries District, New Administrative Capital",
+      "state_date": "منذ يونيو 2018 وحتى 2020",
+      "scoup1": "نظام السباكة",
+      "scoup2": "أعمال المناظر الطبيعية والبنية التحتية",
+      "contract": "2",
+      "hint": "أربعة مبانٍ إدارية: وزارة النقل، وزارة الصحة والسكان، وزارة الشباب والرياضة، وهيئة قناة السويس، كل منها يشغل مساحة تبلغ ١٠،٠٠٠ متر مربع مع ١١ طابقًا وبدروم مكون من طابقين."
+    },
+    {
+      "id": "Ben-Zayed-Palace",
+      "image": "/img/portfolio/mas/06.jpg",
+      "title": "Ben Zayed Palace (MZ) Alamein",
+      "state_date": "منذ يناير 2022 إلى مايو 2022",
+      "scoup1": "نظام السباكة",
+      "scoup2": "نظام مكافحة الحرائق",
+      "scoup3": "نظام الكهرباء",
+      "scoup4": "نظام التكييف",
+      "contract": "4",
+      "hint": "قصر بن زايد على مساحة تبلغ 4,000 متر مربع بالإضافة إلى ثلاث فيلات ضخمة وخمس مبانٍ خدمية."
+    },
+    {
+      "id": "Al-Hayah-University",
+      "image": "/img/portfolio/mas/07.jpg",
+      "title": "Al Hayah University",
+      "state_date": "منذ فبراير 2023",
+      "owner": "معمار المرشدي",
+      "main_contractor": "ألفا للمقاولات الهندسية",
+      "scoup1": "الأعمال الميكانيكية",
+      "scoup2": "السباكة",
+      "scoup3": "البنية التحتية",
+      "scoup4": "مكافحة الحرائق",
+      "contract": "2.5",
+      "hint": ""
+    },
+    {
+      "id": "Compound-El-Nakheel",
+      "image": "/img/portfolio/mas/08.jpg",
+      "title": "Compound El-Nakheel",
+      "state_date": "منذ اكتوبر 2022",
+      "main_contractor": "MEPCON",
+      "scoup1": "الأعمال الميكانيكية",
+      "scoup2": "السباكة",
+      "scoup3": "البنية التحتية",
+      "scoup4": "مكافحة الحرائق",
+      "contract": "18",
+      "hint": "مجمع سكني يمتلكه وزارة الداخلية يضم 10 فيلات و 11 مبنى سكنيًا، محاطًا بمساحة خضراء كبيرة. تم تعاقدنا لإكمال جميع الأعمال الميكانيكية للمجمع، بتكلفة تبلغ 20 مليون جنيه مصري."
+    },
+    {
+      "id": "Ikhmem-Hospital",
+      "image": "/img/portfolio/mas/09.jpg",
+      "title": "Ikhmem Hospital",
+      "state_date": "منذ يونيو 2022",
+      "main_contractor": "MEPCON",
+      "scoup1": "الأعمال الميكانيكية",
+      "scoup2": "مكافحة الحرائق",
+      "scoup3": "تكييف الهواء",
+      "contract": "2",
+      "hint": "مستشفى مركز الإعادة والتأهيل في مدينة إخميم بمحافظة سوهاج"
+    },
+    {
+      "id": "La-Fontaine",
+      "image": "/img/portfolio/mas/10.jpg",
+      "title": "La Fontaine",
+      "state_date": " منذ نوفمبر 2023",
+      "scoup1": "أعمال ميكانيكية",
+      "scoup2": "سباكة",
+      "scoup3": "بنية تحتية",
+      "scoup4": "مكافحة الحرائق",
+      "contract": "32"
+    },
+    {
+      "id": "Golf-Plaza-Mall",
+      "image": "/img/portfolio/mas/11.jpg",
+      "title": "Golf Plaza Mall",
+      "state_date": "منذ يناير 2023",
+      "scoup1": "أعمال كهربائية لجميع الأنظمة",
+      "contract": "30"
+    },
+    {
+      "id": "El-Mahmoudya-Civil-Registry",
+      "image": "/img/portfolio/mas/12.jpg",
+      "title": "El-Mahmoudya Civil Registry",
+      "main_contractor": "DEGGERS",
+      "scoup1": "أعمال ميكانيكية وكهربائية لجميع الأنظمة",
+      "scoup2": "أعمال مدنية",
+      "contract": "2.7"
+    },
+    {
+      "id": "Dar-El-Salam-Police-Station",
+      "image": "/img/portfolio/mas/13.jpg",
+      "title": "Dar El-Salam Police Station",
+      "state_date": "منذ فبراير 2023",
+      "main_contractor": "شركة خرسانة",
+      "scoup1": "أعمال ميكانيكية وكهربائية لجميع الأنظمة",
+      "scoup2": "مكافحة الحرائق",
+      "scoup3": "تجديد أنظمة التكييف",
+      "scoup4": "السباكة",
+      "contract": "3.8"
+    }
+  ]
+}

@@ -2,7 +2,13 @@
   <Loading />
   <Navbar />
   <Header2 bg="/img/portfolio/mas/11.jpg" title="Golf Plaza Mall" />
-  <UniqueProject
+  <UniqueProjectArabic
+    v-if="$i18n.locale == 'ar-AR'"
+    state_date= "منذ يناير 2023"
+scoup1= "أعمال كهربائية لجميع الأنظمة"
+contract= "30"
+  />
+  <UniqueProject v-if="$i18n.locale == 'en-US'"
     state_date="1 JAN 2023"
     scoup1="ELECTRICAL WORKS ALL SYSTEMS"
     contract="30"
