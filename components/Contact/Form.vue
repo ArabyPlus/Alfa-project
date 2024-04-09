@@ -38,10 +38,10 @@
       <div class="button text-center ">
         <button
           type="submit"
-          class="btn-curve btn-color"
+          class="btn-curve btn-color rounded"
           @click="onSubmit"
         >
-          <span>Send Message</span>
+          <span>{{ $t('Send Message') }}</span>
         </button>
       </div>
     </div>
