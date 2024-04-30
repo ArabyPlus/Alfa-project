@@ -1,35 +1,21 @@
 <template>
-  <nav ref="navbar" class="navbar navbar-expand-lg" >
+  <nav ref="navbar" class="navbar navbar-expand-lg">
     <div class="container">
       <!-- Logo -->
       <div class="flex align-items-center align-center gap-6">
         <NuxtLink to="/" class="logo">
-          <img
-            ref="lr"
-            src="/public/img/logoo.png"
-            alt="logo"
-            v-if="showLogo !== false && !(showDarkLogo && theme === 'light')"
-          />
+          <img ref="lr" src="/public/img/logoo.png" alt="logo"
+            v-if="showLogo !== false && !(showDarkLogo && theme === 'light')" />
 
-          <img
-            src="/public/img/logoo.png"
-            alt="logo"
-            v-if="showDarkLogo && theme === 'light'"
-          />
+          <img src="/public/img/logoo.png" alt="logo" v-if="showDarkLogo && theme === 'light'" />
         </NuxtLink>
         <LangSwitcher class="font-bold" />
+        <ColorMode />
       </div>
 
-      <button
-        @click="handleMobileDropdown"
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+      <button @click="handleMobileDropdown" class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="icon-bar text-blue z-10" style="color: blue">
           <i class="fas fa-bars text-blue z-10" style="color: blue"></i>
         </span>
@@ -44,26 +30,20 @@
             }}</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" style="color: grey" to="/about"
-              >{{ $t('About') }}</NuxtLink
-            >
+            <NuxtLink class="nav-link" style="color: grey" to="/about">{{ $t('About') }}</NuxtLink>
           </li>
 
           <li class="nav-item">
-            <NuxtLink class="nav-link" style="color: grey" to="/our-projects"
-              >{{ $t('Our Projects') }}</NuxtLink
-            >
+            <NuxtLink class="nav-link" style="color: grey" to="/our-projects">{{ $t('Our Projects') }}</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" style="color: grey" href="/contact-us"
-              >{{ $t('Contact Us') }}</NuxtLink
-            >
+            <NuxtLink class="nav-link" style="color: grey" href="/contact-us">{{ $t('Contact Us') }}</NuxtLink>
           </li>
         </ul>
       </div>
     </div>
   </nav>
- 
+
 </template>
 
 <script setup>
@@ -130,4 +110,3 @@ onUnmounted(() => {
   window.removeEventListener("scroll", handleScroll);
 });
 </script>
-

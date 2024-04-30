@@ -78,6 +78,8 @@ export default defineNuxtConfig({
     }
   },
   modules: [
+    '@vueuse/nuxt',
+    '@nuxtjs/color-mode',
     '@nuxt/fonts',
     'nuxt-icon',
     (_options, nuxt) => {

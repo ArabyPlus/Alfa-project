@@ -2191,13 +2191,13 @@ body {
   border-right: 35px solid #f7f7f7;
   bottom: 35px;
 }
-.numbers .item:before,
+/* .numbers .item:before,
 .numbers .item:after {
   content: "";
   position: absolute;
   right: 20%;
   z-index: -1;
-}
+} */
 .numbers .item h3 {
   margin-bottom: 10px;
 }
