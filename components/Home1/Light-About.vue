@@ -4,7 +4,7 @@
       <div class="row">
         <div class=" w-100">
           <div class="exp-content wow fadeInUp text-center" data-wow-delay=".3s">
-            <h6 class="sub-title">{{ $t('Some Numbers Of Our Company') }}</h6>
+            <h6 class="sub-title text-2xl">{{ $t('Some Numbers Of Our Company') }}</h6>
             
             <div class="numbers mt-50 w-100">
               <div class="row">

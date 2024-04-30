@@ -3,21 +3,24 @@
     <div class="container">
       <!-- Logo -->
       <div class="flex align-items-center align-center gap-6">
-        <NuxtLink to="/" class="logo">
+        <NuxtLink to="/" class="logo ml-20">
           <img ref="lr" src="/public/img/logoo.png" alt="logo"
             v-if="showLogo !== false && !(showDarkLogo && theme === 'light')" />
 
           <img src="/public/img/logoo.png" alt="logo" v-if="showDarkLogo && theme === 'light'" />
         </NuxtLink>
+
+      </div>
+      <!-- LANG AND COLOR MODE -->
+      <div class="flex gap-6  mx-auto items-center my-auto lg:hidden">
         <LangSwitcher class="font-bold" />
         <ColorMode />
       </div>
-
-      <button @click="handleMobileDropdown" class="navbar-toggler" type="button" data-toggle="collapse"
+      <button @click="handleMobileDropdown" class="navbar-toggler " type="button" data-toggle="collapse"
         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
         aria-label="Toggle navigation">
-        <span class="icon-bar text-blue z-10" style="color: blue">
-          <i class="fas fa-bars text-blue z-10" style="color: blue"></i>
+        <span class="icon-bar  z-10" style="color: #b19777">
+          <i class="fas fa-bars z-10" style="color: #b19777"></i>
         </span>
       </button>
 
@@ -25,22 +28,41 @@
       <div class="collaps navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <NuxtLink class="nav-link" style="color: grey" to="/">{{
+            <NuxtLink class="nav-link " style="color: grey" to="/">{{
               $t("Home")
             }}</NuxtLink>
           </li>
-          <li class="nav-item">
-            <NuxtLink class="nav-link" style="color: grey" to="/about">{{ $t('About') }}</NuxtLink>
-          </li>
+
 
           <li class="nav-item">
-            <NuxtLink class="nav-link" style="color: grey" to="/our-projects">{{ $t('Our Projects') }}</NuxtLink>
+            <NuxtLink class="nav-link" style="color: grey" to="/our-projects">{{ $t('Projects') }}</NuxtLink>
+          </li>
+          <li class="nav-item relative">
+            <NuxtLink class="nav-link " style="color: grey" to="">{{ $t('Services') }}
+              <Icon class="w-8 h-8 cursor-pointer" name="material-symbols:arrow-drop-down-rounded" @click="showOptions = !showOptions" />
+            </NuxtLink>
+            <div v-if="showOptions" class="options-container text-center">
+                <nuxt-link to="">{{ $t('Contracting') }}</nuxt-link>
+                <nuxt-link to="">{{ $t('Supplies') }}</nuxt-link>
+                <nuxt-link to="">{{ $t('Maintenance') }}</nuxt-link>
+            </div>
+          </li>
+          <li class="nav-item">
+            <NuxtLink class="nav-link" style="color: grey" to="/about">{{ $t('About') }}</NuxtLink>
           </li>
           <li class="nav-item">
             <NuxtLink class="nav-link" style="color: grey" href="/contact-us">{{ $t('Contact Us') }}</NuxtLink>
           </li>
         </ul>
       </div>
+
+
+
+    </div>
+    <!-- LANG AND COLOR MODE -->
+    <div class="lg:flex gap-6 items-center mx-20  hidden">
+      <LangSwitcher class="font-bold" />
+      <ColorMode />
     </div>
   </nav>
 
@@ -109,4 +131,31 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener("scroll", handleScroll);
 });
+const showOptions = ref(false);
 </script>
+
+<style scoped>
+.options-container {
+    position: absolute;
+    top: 65%;
+    right: 15%;
+    /* display: none; */
+    background-color: white;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .language-selector:hover .options-container {
+    display: block;
+  }
+  
+  .options-container div {
+    cursor: pointer;
+    padding: 0.25rem;
+  }
+  
+  .options-container div:hover {
+    background-color: #f0f0f0;
+  }
+</style>

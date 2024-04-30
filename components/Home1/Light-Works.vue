@@ -8,9 +8,7 @@
               <h4 class="playfont wow flipInX" data-wow-delay=".5s">
                 {{ $t("From Our Projects") }}
               </h4>
-              <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">
-                {{ $t("Recent Projects") }}
-              </h6>
+              
             </div>
           </div>
         </div>
@@ -106,7 +104,8 @@
       <div class="mx-auto text-center">
         <NuxtLink
           to="/our-projects"
-          class="btn-curve rounded btn-bord bg-blue-700 btn-lit mt-10"
+          class="btn-curve rounded btn-bord btn-lit mt-10"
+          style="background-color: #b19777;"
         >
           <span>{{ $t("View All") }}</span>
         </NuxtLink>

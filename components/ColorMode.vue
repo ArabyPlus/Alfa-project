@@ -1,15 +1,10 @@
 <template>
-    <div class="flex gap-2">
-        <Icon name="material-symbols:sunny-outline-rounded" class="text-2xl"  @click="$colorMode.preference= 'light'"/>
-        <Icon name="material-symbols:nightlight" class="text-2xl"  @click="$colorMode.preference= 'dark'"/>
-    </div>
+    <div class="flex gap-2 cursor-pointer" >
+        <Icon  v-if="$colorMode.preference!= 'dark'" name="material-symbols:nightlight" class="text-2xl" @click="$colorMode.preference= 'dark'" />
+        <Icon v-if="$colorMode.preference!= 'light'"  name="material-symbols:sunny-outline-rounded" class="text-2xl"  @click="$colorMode.preference= 'light'"/>
+    
+      </div>
   </template>
-  
-  <script setup>
-  const colorMode = useColorMode()
-  
-  console.log(colorMode.preference)
-  </script>
   
   <style>
   body {
@@ -24,12 +19,8 @@
     background-color: #091a28;
     color: #ebf4f1;
   }
-  .sepia-mode body {
-    background-color: #f1e7d0;
-    color: #433422;
+  .dark-mode .options-container{
+    color: black;
   }
-  .sepia-mode nav {
-    background-color: #f1e7d0;
-    color: #433422;
-  }
+  
   </style>

@@ -1,7 +1,7 @@
 {
     "Home": "الرئيسية",
     "About": "من نحن",
-    "Our Projects": "مشروعاتنا",
+    "Projects": "مشروعاتنا",
     "Contact Us": "تواصل معنا",
     "One of our projects": "أحد مشروعاتنا",
     "View All": "مشاهدة جميع المشروعات",
@@ -39,7 +39,12 @@
    "Email": "البريد الإلكتروني",
    "Message": "الرسالة",
    "Best Works" : "أفضل الأعمال",
-   "Send Message": "إرسال"
+   "Send Message": "إرسال",
+   "Services":"الخدمات",
+   "Contracting":"المقاولات",
+   "Supplies":"التوريدات",
+   "Maintenance":"الصيانة"
+
     
    
 }

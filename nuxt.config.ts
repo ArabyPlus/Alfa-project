@@ -78,6 +78,8 @@ export default defineNuxtConfig({
     }
   },
   modules: [
+    'nuxt-primevue',
+    '@nuxtjs/tailwindcss',
     '@vueuse/nuxt',
     '@nuxtjs/color-mode',
     '@nuxt/fonts',
