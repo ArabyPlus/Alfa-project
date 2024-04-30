@@ -85,8 +85,11 @@ export default defineNuxtConfig({
         // @ts-expect-error
         config.plugins.push(vuetify({ autoImport: true }))
       })
-    },
+    },'nuxt-headlessui',
     '@nuxtjs/i18n'],
+    headlessui: {
+      prefix: 'Headless'
+  },
   i18n: {
     lazy: true,
     langDir: "locales",
