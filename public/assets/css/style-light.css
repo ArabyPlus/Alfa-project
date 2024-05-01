@@ -904,7 +904,7 @@ span:hover {
 }
 .progress-wrap::after {
   position: absolute;
-  font-family: "Cairo", sans-serif;
+  font-family: "Font Awesome 5 Free";
   content: "\f077";
   text-align: center;
   line-height: 44px;
@@ -1048,7 +1048,7 @@ span:hover {
 .section-head h6 {
   color: #b19777;
   font-weight: 300;
-  font-size: 17px;
+  font-size:24px;
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-bottom: 10px;
@@ -4029,9 +4029,9 @@ footer .item .copy-right p a {
   .brands .box-top .item {
     margin: 20px 0;
   }
-  .team {
+  /* .team {
     background: #f8f4f3;
-  }
+  } */
   .team .tit .navs span {
     background: #fff;
   }

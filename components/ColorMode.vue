@@ -19,6 +19,10 @@
     background-color: #091a28;
     color: #ebf4f1;
   }
+  .dark-mode .item-bx{
+    background-color: #091a28;
+    color: #ebf4f1;
+  }
   .dark-mode .options-container{
     color: black;
   }

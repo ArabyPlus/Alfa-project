@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "image": "/img/team/1.jpg",
-    "name": "Alex Smith",
+    "image": "https://premiumaqar.com/wp-content/uploads/2023/09/Owner-of-Memaar-Al-Morshedy.webp",
+    "name": "MEMAR EL MORSHEDY",
     "position": "Architect"
   },
   {
     "id": 2,
-    "image": "/img/team/2.jpg",
-    "name": "Alex Smith",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShQaTWfc8_h1wdXQxUUWsFh0yaq9_y8P4w3NjuolBEgQ&s",
+    "name": "EMAAR COMPANY",
     "position": "Architect"
   },
   {
     "id": 3,
-    "image": "/img/team/3.jpg",
-    "name": "Alex Smith",
+    "image": "https://images.wuzzuf-data.net/files/company_logo/Madinet-Nasr-for-Housing-and-Development-Egypt-16925-1691922902-og.jpeg",
+    "name": "MADENAT MASR",
     "position": "Architect"
   },
   {
     "id": 4,
-    "image": "/img/team/4.jpg",
-    "name": "Alex Smith",
+    "image": "https://almalnews.com/wp-content/uploads/2017/12/58438dbc-5564-44c0-9c1e-3431c9a0ef97-1024x1024.png",
+    "name": "MASR EL-GDEDA",
     "position": "Architect"
   }
 ]

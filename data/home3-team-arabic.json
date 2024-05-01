@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "image": "https://premiumaqar.com/wp-content/uploads/2023/09/Owner-of-Memaar-Al-Morshedy.webp",
+      "name": "معمار المرشدي",
+      "position": "Architect"
+    },
+    {
+      "id": 2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShQaTWfc8_h1wdXQxUUWsFh0yaq9_y8P4w3NjuolBEgQ&s",
+      "name": "شركة إعمار",
+      "position": "Architect"
+    },
+    {
+      "id": 3,
+      "image": "https://images.wuzzuf-data.net/files/company_logo/Madinet-Nasr-for-Housing-and-Development-Egypt-16925-1691922902-og.jpeg",
+      "name": "مدينة مصر",
+      "position": "Architect"
+    },
+    {
+      "id": 4,
+      "image": "https://almalnews.com/wp-content/uploads/2017/12/58438dbc-5564-44c0-9c1e-3431c9a0ef97-1024x1024.png",
+      "name": "مصر الجديدة",
+      "position": "Architect"
+    }
+  ]

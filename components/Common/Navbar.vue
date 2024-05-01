@@ -38,13 +38,20 @@
             <NuxtLink class="nav-link" style="color: grey" to="/our-projects">{{ $t('Projects') }}</NuxtLink>
           </li>
           <li class="nav-item relative">
-            <NuxtLink class="nav-link " style="color: grey" to="">{{ $t('Services') }}
+            <NuxtLink class="nav-link " style="color: grey" to="/#services">{{ $t('Services') }}
               <Icon class="w-8 h-8 cursor-pointer" name="material-symbols:arrow-drop-down-rounded" @click="showOptions = !showOptions" />
             </NuxtLink>
-            <div v-if="showOptions" class="options-container text-center">
-                <nuxt-link to="">{{ $t('Contracting') }}</nuxt-link>
-                <nuxt-link to="">{{ $t('Supplies') }}</nuxt-link>
-                <nuxt-link to="">{{ $t('Maintenance') }}</nuxt-link>
+            <div v-if="showOptions" class="options-container text-center lg:hidden">
+                <nuxt-link class="mb-3 bg-amber-300 w-100 rounded" to="/#services">{{ $t('Contracting') }}</nuxt-link>
+                <nuxt-link class="mb-3 bg-amber-300 w-100 rounded" to="/#01">{{ $t('Supplies') }}</nuxt-link>
+                <nuxt-link class="mb-3 bg-amber-300 w-100 rounded" to="/#02">{{ $t('Maintenance') }}</nuxt-link>
+                <nuxt-link class="bg-amber-300 w-100 rounded" to="/#03">{{ $t('Providing spare parts') }}</nuxt-link>
+            </div>
+            <div v-if="showOptions" class="options-container text-center hidden lg:block">
+                <nuxt-link class="mb-3 bg-amber-300 w-100 rounded" to="/#services">{{ $t('Contracting') }}</nuxt-link>
+                <nuxt-link class="mb-3 bg-amber-300 w-100 rounded" to="/#services">{{ $t('Supplies') }}</nuxt-link>
+                <nuxt-link class="mb-3 bg-amber-300 w-100 rounded" to="/#services">{{ $t('Maintenance') }}</nuxt-link>
+                <nuxt-link class="bg-amber-300 w-100 rounded" to="/#services">{{ $t('Providing spare parts') }}</nuxt-link>
             </div>
           </li>
           <li class="nav-item">

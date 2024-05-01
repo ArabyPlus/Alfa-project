@@ -3,9 +3,11 @@
   <Navbar theme="light" />
   <Header />
   <About />
-
-  <!-- <Services /> -->
+  <Services />
+  <Home3Team />
   <Works />
+  <!-- <Testimonials /> -->
+
   <Footer class="mt-30" />
 </template>
 

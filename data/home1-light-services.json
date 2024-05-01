@@ -1,22 +1,22 @@
 [
   {
     "id": "01",
-    "title": "Architecture",
-    "discription": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "title": "Contracting",
+    "discription": "Contracting involves the process of entering into agreements or contracts with other parties to perform specific tasks or provide services. This can include construction contracts, service agreements, or procurement contracts, among others"
   },
   {
     "id": "02",
-    "title": "Interior Design",
-    "discription": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "title": "Supplies",
+    "discription": "Supplies refer to the materials or resources needed for various purposes, such as manufacturing, construction, or daily operations. They can include raw materials, equipment, tools, or consumable goods essential for completing tasks or fulfilling orders"
   },
   {
     "id": "03",
-    "title": "3D Modeling",
-    "discription": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "title": "Maintenance",
+    "discription": "Maintenance involves the regular upkeep and repair of equipment, machinery, infrastructure, or systems to ensure they remain in optimal condition and function effectively. It encompasses preventive measures, inspections, and corrective actions aimed at minimizing downtime, extending the lifespan of assets, and enhancing safety and reliability"
   },
   {
     "id": "04",
-    "title": "Furniture Design",
-    "discription": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "title": "Providing spare parts",
+    "discription": "Providing spare parts involves supplying replacement components or items essential for repairing or maintaining machinery, equipment, or systems. This service ensures uninterrupted operation and efficient functioning by promptly addressing breakdowns or wear and tear, thereby supporting operational continuity and minimizing downtime"
   }
 ]
