@@ -7,6 +7,7 @@
 </template>
 
 <script setup>
+import scrollToTop from "@/common/scrollToTop";
 
 onMounted(() => {
   scrollToTop();
