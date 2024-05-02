@@ -69,8 +69,11 @@
         </div>
         <div class="col-lg-4">
           <div class="item">
-            <div class="logo">
-              <img src="/public/img/logoo.png" alt="" />
+            <div class="w-[150px]">
+              <img  ref="lr" src="/public/img/logoo-dark.png" alt="logo"
+            v-if="showLogo !== false && !($colorMode.preference === 'light')" />
+            <img v-else src="/public/img/logoo.png" alt="">
+
             </div>
             <div class="social">
               <NuxtLink to="#0"><i class="fab fa-facebook-f"></i></NuxtLink>

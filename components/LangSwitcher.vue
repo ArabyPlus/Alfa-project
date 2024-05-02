@@ -1,9 +1,10 @@
 <template>
   <div class="language-selector">
-    <Icon name="ic:baseline-language" class="w-8 h-8 cursor-pointer" @click="showOptions = !showOptions" />
+    <Icon name="ic:baseline-language" class="w-6 h-6 cursor-pointer" @click="showOptions = !showOptions" />
     <div v-if="showOptions" class="options-container">
       <div v-for="item in locales" :key="item" @click="selectLanguage(item)">
-        <a href=""> {{ item === 'ar-AR' ? 'ع' : 'EN' }}
+        <a href="" class="hover:bg-gray-400 block py-2 px-4 rounded">
+          {{ item === 'ar-AR' ? 'English' : 'العربية'}}
         </a>
       </div>
     </div>

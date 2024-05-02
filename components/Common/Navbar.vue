@@ -3,11 +3,12 @@
     <div class="container">
       <!-- Logo -->
       <div class="flex align-items-center align-center gap-6">
-        <NuxtLink to="/" class="logo ml-20">
-          <img ref="lr" src="/public/img/logoo.png" alt="logo"
-            v-if="showLogo !== false && !(showDarkLogo && theme === 'light')" />
+        <NuxtLink to="/" class="w-[100px] md:w-[150px] md:ml-20">
+          <img  ref="lr" src="/public/img/logoo-dark.png" alt="logo"
+            v-if="showLogo !== false && !($colorMode.preference === 'light')" />
+            <img v-else src="/public/img/logoo.png" alt="">
 
-          <img src="/public/img/logoo.png" alt="logo" v-if="showDarkLogo && theme === 'light'" />
+          <img  src="/public/img/logoo-dark.png" alt="logo" v-if="showDarkLogo && $colorMode.preference === 'light'" />
         </NuxtLink>
 
       </div>
@@ -26,7 +27,7 @@
 
       <!-- navbar links -->
       <div class="collaps navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto ">
           <li class="nav-item">
             <NuxtLink class="nav-link " style="color: grey" to="/">{{
               $t("Home")
@@ -37,22 +38,22 @@
           <li class="nav-item">
             <NuxtLink class="nav-link" style="color: grey" to="/our-projects">{{ $t('Projects') }}</NuxtLink>
           </li>
-          <li class="nav-item relative">
+          <li class="nav-item relative services-selector">
             <NuxtLink class="nav-link " style="color: grey" to="/#services">{{ $t('Services') }}
               <Icon class="w-8 h-8 cursor-pointer" name="material-symbols:arrow-drop-down-rounded" @click="showOptions = !showOptions" />
             </NuxtLink>
-            <div v-if="showOptions" class="options-container text-center lg:hidden">
-                <nuxt-link class="mb-3 bg-amber-300 w-100 rounded" to="/#services">{{ $t('Contracting') }}</nuxt-link>
-                <nuxt-link class="mb-3 bg-amber-300 w-100 rounded" to="/#01">{{ $t('Supplies') }}</nuxt-link>
-                <nuxt-link class="mb-3 bg-amber-300 w-100 rounded" to="/#02">{{ $t('Maintenance') }}</nuxt-link>
-                <nuxt-link class="bg-amber-300 w-100 rounded" to="/#03">{{ $t('Providing spare parts') }}</nuxt-link>
+            <div v-if="showOptions" class="options-container text-center flex flex-col right-[35%] md:right-[44%] lg:right-[15%]">
+                <nuxt-link class="mb-3 hover:bg-gray-400 rounded" to="/#services">{{ $t('Contracting') }}</nuxt-link>
+                <nuxt-link class="mb-3 hover:bg-gray-400 rounded" to="/#01">{{ $t('Supplies') }}</nuxt-link>
+                <nuxt-link class="mb-3 hover:bg-gray-400 rounded" to="/#02">{{ $t('Maintenance') }}</nuxt-link>
+                <nuxt-link class="hover:bg-gray-400 rounded" to="/#03">{{ $t('Providing spare parts') }}</nuxt-link>
             </div>
-            <div v-if="showOptions" class="options-container text-center hidden lg:block">
-                <nuxt-link class="mb-3 bg-amber-300 w-100 rounded" to="/#services">{{ $t('Contracting') }}</nuxt-link>
-                <nuxt-link class="mb-3 bg-amber-300 w-100 rounded" to="/#services">{{ $t('Supplies') }}</nuxt-link>
-                <nuxt-link class="mb-3 bg-amber-300 w-100 rounded" to="/#services">{{ $t('Maintenance') }}</nuxt-link>
-                <nuxt-link class="bg-amber-300 w-100 rounded" to="/#services">{{ $t('Providing spare parts') }}</nuxt-link>
-            </div>
+            <!-- <div v-if="showOptions" class="options-container text-center ">
+                <nuxt-link class="mb-3 hover:bg-gray-400 rounded" to="/#services">{{ $t('Contracting') }}</nuxt-link>
+                <nuxt-link class="mb-3 hover:bg-gray-400 rounded" to="/#services">{{ $t('Supplies') }}</nuxt-link>
+                <nuxt-link class="mb-3 hover:bg-gray-400 rounded" to="/#services">{{ $t('Maintenance') }}</nuxt-link>
+                <nuxt-link class="hover:bg-gray-400 rounded" to="/#services">{{ $t('Providing spare parts') }}</nuxt-link>
+            </div> -->
           </li>
           <li class="nav-item">
             <NuxtLink class="nav-link" style="color: grey" to="/about">{{ $t('About') }}</NuxtLink>
@@ -145,16 +146,15 @@ const showOptions = ref(false);
 .options-container {
     position: absolute;
     top: 65%;
-    right: 15%;
-    /* display: none; */
+    display: none;
     background-color: white;
     padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 4px;
   }
-  
-  .language-selector:hover .options-container {
-    display: block;
+  .services-selector:hover .options-container {
+    display: flex;
+    flex-direction: column;
   }
   
   .options-container div {
@@ -164,5 +164,6 @@ const showOptions = ref(false);
   
   .options-container div:hover {
     background-color: #f0f0f0;
+
   }
 </style>

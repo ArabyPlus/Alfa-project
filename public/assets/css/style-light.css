@@ -1064,7 +1064,7 @@ span:hover {
   margin-bottom: 15px;
   position: relative;
 }
-.sub-title:before {
+/* .sub-title:before {
   content: "";
   width: 50px;
   height: 1px;
@@ -1072,7 +1072,7 @@ span:hover {
   position: absolute;
   left: 0;
   top: 50%;
-}
+} */
 .extra-title {
   font-weight: 700;
 }
