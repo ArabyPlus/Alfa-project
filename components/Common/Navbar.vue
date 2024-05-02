@@ -8,7 +8,7 @@
             v-if="showLogo !== false && !($colorMode.preference === 'light')" />
             <img v-else src="/public/img/logoo.png" alt="">
 
-          <img  src="/public/img/logoo-dark.png" alt="logo" v-if="showDarkLogo && $colorMode.preference === 'light'" />
+          <!-- <img  src="/public/img/logoo-dark.png" alt="logo" v-if="showDarkLogo && $colorMode.preference === 'light'" /> -->
         </NuxtLink>
 
       </div>
