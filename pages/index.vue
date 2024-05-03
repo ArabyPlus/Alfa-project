@@ -1,4 +1,4 @@
-<template >
+<template>
   <Loading />
   <Navbar theme="light" />
   <Header />
@@ -6,13 +6,14 @@
   <Services />
   <Home3Team />
   <Works />
-  <!-- <Testimonials /> -->
-
+  <Testimonials />
+  <JoinUs />
   <Footer class="mt-30" />
 </template>
 
 <script setup>
 //= Page Components
+import JoinUs from "~/components/JoinUs.vue";
 import Loading from "@/components/Common/Loading.vue";
 import Navbar from "@/components/Common/Navbar.vue";
 import Header from "@/components/Home1/Light-Header.vue";

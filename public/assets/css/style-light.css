@@ -3112,7 +3112,6 @@ span:hover {
   font-size: 18px;
   font-weight: 400;
   font-style: italic;
-  color: #333;
 }
 .testimonials.grid .item .info {
   margin-top: 30px;
@@ -3174,18 +3173,21 @@ span:hover {
 .testimonials.grid .navs span {
   padding: 10px 20px;
   background: #f8f4f3;
-  cursor: pointer;
   position: absolute;
   top: 0;
   left: 0;
+  color: #b19777;
+
 }
-.testimonials.grid .navs span:hover {
+/* .testimonials.grid .navs span:hover {
   background: #b19777;
   color: #fff;
-}
+} */
 .testimonials.grid .navs .next {
   left: auto;
   right: 0;
+  color: #b19777;
+
 }
 .testimonials.bg-img .item .cont {
   border-color: rgba(255, 255, 255, 0.15);

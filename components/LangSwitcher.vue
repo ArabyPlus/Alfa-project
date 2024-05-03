@@ -4,7 +4,7 @@
     <div v-if="showOptions" class="options-container">
       <div v-for="item in locales" :key="item" @click="selectLanguage(item)">
         <a href="" class="hover:bg-gray-400 block py-2 px-4 rounded">
-          {{ item === 'ar-AR' ? 'English' : 'العربية'}}
+          {{ item === 'ar-AR' ? 'العربية':'English' }}
         </a>
       </div>
     </div>
@@ -16,7 +16,7 @@ import { useI18n } from 'vue-i18n';
 import { ref } from 'vue';
 
 const { locale, setLocale } = useI18n();
-const locales = ['en-US', 'ar-AR'];
+const locales = [ 'ar-AR','en-US'];
 
 const selectedLanguage = locale.value;
 const showOptions = ref(false);

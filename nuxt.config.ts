@@ -2,7 +2,9 @@ import { fileURLToPath } from 'node:url';
 import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 
 export default defineNuxtConfig({
-
+  build: {
+    transpile: ['vuetify'],
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -91,6 +93,13 @@ export default defineNuxtConfig({
       })
     },'nuxt-headlessui',
     '@nuxtjs/i18n'],
+    vite: {
+      vue: {
+        template: {
+          transformAssetUrls,
+        },
+      },
+    },
     headlessui: {
       prefix: 'Headless'
   },
