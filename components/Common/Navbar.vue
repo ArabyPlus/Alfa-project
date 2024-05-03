@@ -40,9 +40,9 @@
           </li>
           <li class="nav-item relative services-selector">
             <NuxtLink class="nav-link " style="color: grey" to="/#services">{{ $t('Services') }}
-              <Icon class="w-8 h-8 cursor-pointer" name="material-symbols:arrow-drop-down-rounded" @click="showOptions = !showOptions" />
+              <Icon class="w-8 h-8 cursor-pointer" name="material-symbols:arrow-drop-down-rounded"  />
             </NuxtLink>
-            <div v-if="showOptions" class="options-container text-center flex flex-col right-[35%] md:right-[44%] lg:right-[15%]">
+            <div  class="options-container text-center flex flex-col right-[35%] md:right-[44%] lg:right-[15%]">
                 <nuxt-link class="mb-3 hover:bg-gray-400 rounded" to="/#services">{{ $t('Contracting') }}</nuxt-link>
                 <nuxt-link class="mb-3 hover:bg-gray-400 rounded" to="/#01">{{ $t('Supplies') }}</nuxt-link>
                 <nuxt-link class="mb-3 hover:bg-gray-400 rounded" to="/#02">{{ $t('Maintenance') }}</nuxt-link>
@@ -139,7 +139,6 @@ onMounted(() => {
 onUnmounted(() => {
   window.removeEventListener("scroll", handleScroll);
 });
-const showOptions = ref(false);
 </script>
 
 <style scoped>
