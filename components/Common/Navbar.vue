@@ -40,7 +40,7 @@
           </li>
           <li class="nav-item relative services-selector">
             <NuxtLink class="nav-link " style="color: grey" to="/#services">{{ $t('Services') }}
-              <Icon class="w-8 h-8 cursor-pointer" name="material-symbols:arrow-drop-down-rounded"  />
+              <Icon class="w-8 h-6 cursor-pointer" name="material-symbols:arrow-drop-down-rounded"  />
             </NuxtLink>
             <div  class="options-container text-center flex flex-col right-[35%] md:right-[44%] lg:right-[15%]">
                 <nuxt-link class="mb-3 hover:bg-gray-400 rounded" to="/#services">{{ $t('Contracting') }}</nuxt-link>
