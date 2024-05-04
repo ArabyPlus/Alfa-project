@@ -18,9 +18,12 @@
         </div>
       </div>
      <Projectss />
+     
     </div>
-  </section>
+    <h1 class="mt-10 mx-auto text-center bg-grey-darken-1 w-32 py-2 rounded cursor-pointer" @click="toContact">{{ $t('Contact Us') }}</h1>
+    
 
+  </section>
   <Footer class="mt-30" />
 </template>
 
@@ -33,6 +36,9 @@ import Navbar from "@/components/Common/Navbar.vue";
 
 import Footer from "@/components/Common/Footer.vue";
 
+const toContact= ()=>{
+  navigateTo('/contact-us')
+}
 //= Page Metadata
 definePageMeta({
   layout: "light",
