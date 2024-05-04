@@ -20,7 +20,7 @@
       "state_date": "MAY 2022 TO PRESENT",
       "owner": "MEMAR EL MORSHEDY",
       "main_contractor": "ALFA FOR MEP",
-      "scoup1": "Mechanical work",
+      "scoup1": "MECHANICAL work",
       "scoup2": "Plumbing",
       "scoup3": "Infra",
       "scoup4": "Firefighting",
@@ -97,7 +97,7 @@
       "scoup3": "INFRA",
       "scoup4": "FIREFIGHTING",
       "contract": "18",
-      "hint": "A residential complex owned by the Ministry of Interior comprising 10 villas and 11 residential buildings, surrounded by a large green area. We were contracted to complete all mechanical work for the complex, with a business size reaching 20 million Egyptian pounds."
+      "hint": "A residential complex owned by the Ministry of Interior comprising 10 villas and 11 residential buildings, surrounded by a large green area. We were contracted to complete all MECHANICAL work for the complex, with a business size reaching 20 million Egyptian pounds."
     },
     {
       "id":"Ikhmem-Hospital",
@@ -105,7 +105,7 @@
       "title": "Ikhmem Hospital",
       "state_date": "JUNE 2022 TO PRESENT",
       "main_contractor": "MEPCON",
-      "scoup1": "mechanical work",
+      "scoup1": "MECHANICAL work",
       "scoup2": "FIREFIGHTING",
       "scoup3": "HVAC",
       "contract": "2",

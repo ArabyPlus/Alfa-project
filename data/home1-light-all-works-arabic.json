@@ -3,7 +3,7 @@
     {
       "id": "Iconic-Tower",
       "image": "/img/portfolio/mas/01.jpg",
-      "title": "Iconic Tower",
+      "title": "البرج الأيقوني",
       "state_date": "منذ مايو 2022",
       "owner": "معمار المرشدى",
       "main_contractor": "ألفا للمقاولات الهندسية",
@@ -16,7 +16,7 @@
     {
       "id": "Degla-Land-Mark",
       "image": "/img/portfolio/mas/02.jpg",
-      "title": "Degla Land Mark Compound",
+      "title": "كومباوند دجلة لاند مارك",
       "state_date": "منذ مايو 2022",
       "owner": "معمار المرشدى",
       "main_contractor": "ألفا للمقاولات الهندسية",
@@ -30,7 +30,7 @@
     {
       "id": "Belle-Vie",
       "image": "/img/portfolio/mas/03.jpg",
-      "title": "Belle Vie Compound - Emaar ( Alma & Faya )",
+      "title": "بيلا ڨي كومباوند إعمار",
       "state_date": "منذ أكتوبر 2022",
       "owner": "شركة إعمار",
       "main_contractor": "شركة سولد للإنشاءات",
@@ -43,7 +43,7 @@
     {
       "id": "New-Giza",
       "image": "/img/portfolio/mas/04.jpg",
-      "title": "New Giza ( NH-08 )",
+      "title": "الجيزة الجديدة (نيو جيزة)",
       "scoup1": "السباكة",
       "scoup2": "مكافحة الحرائق",
       "scoup3": "تكييف الهواء",
@@ -53,7 +53,7 @@
     {
       "id": "Ministries-District",
       "image": "/img/portfolio/mas/05.jpg",
-      "title": "Ministries District, New Administrative Capital",
+      "title": "حي الوزارات العاصمة الإدارية الجديدة",
       "state_date": "منذ يونيو 2018 وحتى 2020",
       "scoup1": "نظام السباكة",
       "scoup2": "أعمال المناظر الطبيعية والبنية التحتية",
@@ -63,7 +63,7 @@
     {
       "id": "Ben-Zayed-Palace",
       "image": "/img/portfolio/mas/06.jpg",
-      "title": "Ben Zayed Palace (MZ) Alamein",
+      "title": "قصر ابن زايد - العالمين",
       "state_date": "منذ يناير 2022 إلى مايو 2022",
       "scoup1": "نظام السباكة",
       "scoup2": "نظام مكافحة الحرائق",
@@ -75,7 +75,7 @@
     {
       "id": "Al-Hayah-University",
       "image": "/img/portfolio/mas/07.jpg",
-      "title": "Al Hayah University",
+      "title": "جامعة الحياة",
       "state_date": "منذ فبراير 2023",
       "owner": "معمار المرشدي",
       "main_contractor": "ألفا للمقاولات الهندسية",
@@ -89,9 +89,9 @@
     {
       "id": "Compound-El-Nakheel",
       "image": "/img/portfolio/mas/08.jpg",
-      "title": "Compound El-Nakheel",
+      "title": "كومباوند النخيل",
       "state_date": "منذ اكتوبر 2022",
-      "main_contractor": "MEPCON",
+      "main_contractor": "مبكون",
       "scoup1": "الأعمال الميكانيكية",
       "scoup2": "السباكة",
       "scoup3": "البنية التحتية",
@@ -102,9 +102,9 @@
     {
       "id": "Ikhmem-Hospital",
       "image": "/img/portfolio/mas/09.jpg",
-      "title": "Ikhmem Hospital",
+      "title": "مستشفى أخميم",
       "state_date": "منذ يونيو 2022",
-      "main_contractor": "MEPCON",
+      "main_contractor": "مبكون",
       "scoup1": "الأعمال الميكانيكية",
       "scoup2": "مكافحة الحرائق",
       "scoup3": "تكييف الهواء",
@@ -114,7 +114,7 @@
     {
       "id": "La-Fontaine",
       "image": "/img/portfolio/mas/10.jpg",
-      "title": "La Fontaine",
+      "title": "لافونتين",
       "state_date": " منذ نوفمبر 2023",
       "scoup1": "أعمال ميكانيكية",
       "scoup2": "سباكة",
@@ -125,7 +125,7 @@
     {
       "id": "Golf-Plaza-Mall",
       "image": "/img/portfolio/mas/11.jpg",
-      "title": "Golf Plaza Mall",
+      "title": "مول جولف بلازا",
       "state_date": "منذ يناير 2023",
       "scoup1": "أعمال كهربائية لجميع الأنظمة",
       "contract": "30"
@@ -133,8 +133,8 @@
     {
       "id": "El-Mahmoudya-Civil-Registry",
       "image": "/img/portfolio/mas/12.jpg",
-      "title": "El-Mahmoudya Civil Registry",
-      "main_contractor": "DEGGERS",
+      "title": "السجل المدنى بالمحمودية",
+      "main_contractor": "ديجرز",
       "scoup1": "أعمال ميكانيكية وكهربائية لجميع الأنظمة",
       "scoup2": "أعمال مدنية",
       "contract": "2.7"
@@ -142,7 +142,7 @@
     {
       "id": "Dar-El-Salam-Police-Station",
       "image": "/img/portfolio/mas/13.jpg",
-      "title": "Dar El-Salam Police Station",
+      "title": "قسم شرطة دار السلام",
       "state_date": "منذ فبراير 2023",
       "main_contractor": "شركة خرسانة",
       "scoup1": "أعمال ميكانيكية وكهربائية لجميع الأنظمة",
