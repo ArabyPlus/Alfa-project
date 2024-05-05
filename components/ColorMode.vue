@@ -17,6 +17,8 @@
   }
   .dark-mode .tabs-card {
     background-color: #091a28;
+    color: #ebf4f1;
+
   }
   .dark-mode nav{
     background-color: #091a28;

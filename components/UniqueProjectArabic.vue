@@ -1,5 +1,5 @@
 <template>
-  <div class="info mt-10 text-center mb-10 " style="direction: rtl;">
+  <div class="info mt-10 text-start mx-auto mb-10  w-80" style="direction: rtl;">
     <h5>{{ title }}</h5>
     <h5 v-if="state_date"><span class="font-bold">تاريخ البدء :</span> {{ state_date }}</h5>
     <h1 v-if="owner"><span class="font-bold">المالك :</span> {{ owner }}</h1>
