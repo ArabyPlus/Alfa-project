@@ -1,10 +1,7 @@
 <template>
   <Loading />
   <Navbar />
-  <Header2
-    bg="/img/portfolio/mas/03.jpg"
-    title="Belle Vie Compound - Emaar ( Alma & Faya )"
-  />
+  <MyHeader :slides="myArray"/>
   <UniqueProjectArabic
     v-if="$i18n.locale == 'ar-AR'"
     state_date="منذ أكتوبر 2022"
@@ -35,10 +32,16 @@
 //= Page Components
 import Loading from "@/components/Common/Loading.vue";
 import Navbar from "@/components/Common/Navbar.vue";
-import Header2 from "@/components/Common/Header2.vue";
+import MyHeader from "@/components/Common/MyHeader";
 import Contact from "@/components/Contact/index.vue";
 import Footer from "@/components/Common/Footer.vue";
 import UniqueProject from "../../components/UniqueProject.vue";
+
+const myArray = [
+  { id: 1, background: 'https://blureg.com/wp-content/uploads/2023/06/%D8%A7%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A8%D9%8A%D9%84-%D9%81%D9%8A-%D8%A5%D8%B9%D9%85%D8%A7%D8%B1-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B2%D8%A7%D9%8A%D8%AF-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-New-Zayed-Belle-Vie.jpg'},
+  { id: 2, background: 'https://www.propertyfinder.eg/property/59b117351a4789e769421e4d11d4deca/668/452/MODE/90a019/4643723-16be7o.jpg?ctr=eg'},
+  { id: 3, background: '/img/portfolio/mas/03.jpg'}
+]
 
 //= Page Metadata
 definePageMeta({

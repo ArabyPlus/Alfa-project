@@ -1,7 +1,7 @@
 <template>
   <Loading />
   <Navbar />
-  <Header2 bg="/img/portfolio/mas/10.jpg" title="La Fontaine" />
+  <MyHeader :slides="myArray" />
   <UniqueProjectArabic
     v-if="$i18n.locale == 'ar-AR'"
     state_date=" منذ نوفمبر 2023"
@@ -30,10 +30,15 @@
 //= Page Components
 import Loading from "@/components/Common/Loading.vue";
 import Navbar from "@/components/Common/Navbar.vue";
-import Header2 from "@/components/Common/Header2.vue";
 import Contact from "@/components/Contact/index.vue";
 import Footer from "@/components/Common/Footer.vue";
 import UniqueProject from "../../components/UniqueProject.vue";
+import MyHeader from "@/components/Common/MyHeader";
+const myArray = [
+  { id: 1, background: 'https://realestate.eg/ckfinder/userfiles/images/La%20Fontaine/La-Fontaine__-1.jpg'},
+  { id: 2, background: 'https://realestate.eg/ckfinder/userfiles/images/La%20Fontaine/villas%20for%20sale%20in%20la%20fountaine.jpg'},
+  { id: 3, background: '/img/portfolio/mas/10.jpg'}
+]
 
 //= Page Metadata
 definePageMeta({

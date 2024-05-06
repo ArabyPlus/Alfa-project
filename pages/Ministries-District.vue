@@ -1,10 +1,7 @@
 <template>
   <Loading />
   <Navbar />
-  <Header2
-    bg="/img/portfolio/mas/05.jpg"
-    title="Ministries District, New Administrative Capital"
-  />
+  <MyHeader :slides="myArray" />
   <UniqueProjectArabic
     v-if="$i18n.locale == 'ar-AR'"
     state_date="منذ يونيو 2018 وحتى 2020"
@@ -28,11 +25,15 @@
 //= Page Components
 import Loading from "@/components/Common/Loading.vue";
 import Navbar from "@/components/Common/Navbar.vue";
-import Header2 from "@/components/Common/Header2.vue";
 import Contact from "@/components/Contact/index.vue";
 import Footer from "@/components/Common/Footer.vue";
 import UniqueProject from "../../components/UniqueProject.vue";
-
+import MyHeader from "@/components/Common/MyHeader";
+const myArray = [
+  { id: 1, background: 'https://thenewcapital.net/wp-content/uploads/2022/12/%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D9%87-%D8%A7%D9%84%D8%A7%D8%AF%D8%A7%D8%B1%D9%8A%D9%87-%D8%AD%D9%8A-%D8%A7%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D8%A7%D8%AA-2-1200x830.webp'},
+  { id: 2, background: 'https://aldiyaralasrea.com/wp-content/uploads/2023/07/%D8%AD%D9%8A-%D8%A7%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D8%A7%D8%AA-%D8%A8%D8%A7%D9%84%D8%B9%D8%A7%D8%B5%D9%85%D8%A9-%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A%D8%A9.webp'},
+  { id: 3, background: '/img/portfolio/mas/05.jpg'}
+]
 //= Page Metadata
 definePageMeta({
   layout: "light",

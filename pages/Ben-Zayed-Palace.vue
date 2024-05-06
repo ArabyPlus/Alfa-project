@@ -1,10 +1,7 @@
 <template>
   <Loading />
   <Navbar />
-  <Header2
-    bg="/img/portfolio/mas/06.jpg"
-    title="Ben Zayed Palace (MZ) Alamein"
-  />
+  <MyHeader :slides="myArray" />
   <UniqueProjectArabic
     v-if="$i18n.locale == 'ar-AR'"
     state_date="منذ يناير 2022 إلى مايو 2022"
@@ -32,10 +29,15 @@
 //= Page Components
 import Loading from "@/components/Common/Loading.vue";
 import Navbar from "@/components/Common/Navbar.vue";
-import Header2 from "@/components/Common/Header2.vue";
 import Contact from "@/components/Contact/index.vue";
 import Footer from "@/components/Common/Footer.vue";
 import UniqueProject from "../../components/UniqueProject.vue";
+import MyHeader from "@/components/Common/MyHeader";
+const myArray = [
+  { id: 1, background: 'https://www.kuna.net.kw/NewsPictures/2021/7/1/2f45f0ee-5c60-4611-83c5-dbd7bef3db3e.jpg'},
+  { id: 2, background: 'https://www.albayan.ae/polopoly_fs/1.3503360.1551700116!/image/image.jpg'},
+  { id: 3, background: '/img/portfolio/mas/06.jpg'}
+]
 
 //= Page Metadata
 definePageMeta({

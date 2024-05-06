@@ -1,7 +1,7 @@
 <template>
   <Loading />
   <Navbar />
-  <Header2 bg="/img/portfolio/mas/11.jpg" title="Golf Plaza Mall" />
+  <MyHeader :slides="myArray" />
   <UniqueProjectArabic
     v-if="$i18n.locale == 'ar-AR'"
     state_date= "منذ يناير 2023"
@@ -20,10 +20,15 @@ contract= "30"
 //= Page Components
 import Loading from "@/components/Common/Loading.vue";
 import Navbar from "@/components/Common/Navbar.vue";
-import Header2 from "@/components/Common/Header2.vue";
 import Contact from "@/components/Contact/index.vue";
 import Footer from "@/components/Common/Footer.vue";
 import UniqueProject from "../../components/UniqueProject.vue";
+import MyHeader from "@/components/Common/MyHeader";
+const myArray = [
+  { id: 1, background: 'https://realestate.eg/storage/listings/5nckRgYD4DQseoHH.jpg'},
+  { id: 2, background: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/9d849c110131259.5fe4793d37518.jpg'},
+  { id: 3, background: '/img/portfolio/mas/11.jpg'}
+]
 
 //= Page Metadata
 definePageMeta({

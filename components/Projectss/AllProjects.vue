@@ -3,7 +3,7 @@
     <section class="portfolio section-padding" id="portfolio">
         <div class="container-fluid">
             <div class="container">
-            
+
             </div>
             <div class="row">
                 <!-- filter links -->
@@ -54,9 +54,9 @@
                     <!-- gallery item -->
 
 
-                    <div :id="work.id" :class="`items ${work.filter} mt-50 wow fadeInUp`" data-wow-delay=".3s"
+                    <div  :class="`items ${work.filter} mt-50 wow fadeInUp`" data-wow-delay=".3s"
                         v-for="(work, idx) in works.works" :key="idx" v-show="$i18n.locale == 'en-US'">
-                        <div class="item-img bg-img wow imago rounded" data-background="/img/portfolio/mas/01.jpg"
+                        <div :id="work.id" class="item-img bg-img wow imago rounded" data-background="/img/portfolio/mas/01.jpg"
                             :style="`background-image:url('${work.image}')`">
                             <NuxtLink :to="work.id">
                                 <div class="item-img-overlay"></div>
