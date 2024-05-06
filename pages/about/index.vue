@@ -3,6 +3,7 @@
   <Navbar />
   <Header2 bg="/img/pg2.jpg" :title="aboutUsTranslation" />
   <Vision />
+  <Home1Light-News />
   <Footer />
 </template>
 

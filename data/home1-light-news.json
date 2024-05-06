@@ -1,20 +1,30 @@
 [
   {
-    "image": "/img/blog/1.jpg",
+    "image": "https://media.licdn.com/dms/image/C4D12AQEVIm9zFLsCzg/article-cover_image-shrink_720_1280/0/1601534021525?e=2147483647&v=beta&t=YpM_RR7Fk-1-Ijc5yYdPLelwNCoa8a43kJBwaSnCecs",
     "author": "Alex Smith",
-    "date": "Aug 06 2019",
-    "title": "In Good Taste: Mark Finlay Architects and Interiors"
+    "date": "1999",
+    "title": "We started since 1999",
+    "titleAr": "لقد بدأنا رحلتنا منذ 1999"
   },
   {
-    "image": "/img/blog/2.jpg",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3oW_YHcxtcYcLAVBmMN1T4XPWmIHkndSKUhVAHnjHD1RbRUgZ7hB6Y-shAUp-HMnUEZq_kMbtOCTuAJTNbe9bfGa9c3pJbHuZKR_OqIcTGTYFtoR2NOMOVFaqbd4SXbZLNuHACi5jKMw5/s852/6.jpg",
     "author": "Alex Smith",
-    "date": "Aug 06 2019",
-    "title": "Five Things You Should Know About Modern Furniture."
+    "date": "2005",
+    "title": "We achieved lot of goals in until 2005",
+    "titleAr": "حققنا الكثير من الأهداف حتى عام 2005"
   },
   {
-    "image": "/img/blog/3.jpg",
+    "image": "https://entrepreneuralarabiya.com/wp-content/uploads/2018/01/large-1191012627130158884.png",
     "author": "Alex Smith",
-    "date": "Aug 06 2019",
-    "title": "What it's like to be an interior designer?"
+    "date": "2018",
+    "title": "We continued the work during 2019",
+    "titleAr": "استمررنا في تحقيق الأهداف مرورا بـ 2019"
+  },
+  {
+    "image": "https://lh3.googleusercontent.com/proxy/HDbOERWGGWELeoeBhZmYFMLJi-_JsVDL9Qrt8F6ilcTwBHW2EyOHVulq_kglTAtXEH_bslx8u4kUB5yfmhvIy_6GH6uUNpFldBUFRfxdFn7Y3mt1",
+    "author": "Alex Smith",
+    "date": "2024",
+    "title": "We still working to achieve more goals",
+    "titleAr": "ما زلنا نسعى لتحقيق المزيد من الاهداف"
   }
 ]

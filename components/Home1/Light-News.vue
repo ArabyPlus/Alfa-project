@@ -4,30 +4,26 @@
       <div class="section-head text-center">
         <div class="row justify-content-center">
           <div class="col-lg-6 col-md-8 col-sm-10">
-            <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">Latest News</h6>
-            <h4 class="playfont wow flipInX" data-wow-delay=".5s">Our Blogs</h4>
+            <h4 class="playfont wow flipInX" data-wow-delay=".5s">{{ $t('Our Journey') }}</h4>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4" v-for="blog, idx in blogs" :key="idx">
+        <div class="col-lg-3" v-for="blog, idx in blogs" :key="idx">
           <div :class="`item wow fadeInUp ${idx !== blogs.length - 1 ? 'md-mb50' : ''}`" data-wow-delay=".3s">
             <div class="post-img">
-              <div class="img">
-                <img :src="blog.image" alt="">
+              <div class="img ">
+                <img class="h-60" :src="blog.image" alt="">
               </div>
             </div>
-            <div class="cont">
-              <div class="info">
-                <NuxtLink to="#0">{{ blog.author }}</NuxtLink>
+            <div class="bg-grey-lighten-1 py-2 px-2 rounded">
+              <div class="text-grey-darken-2 mt-1 ">
                 <NuxtLink to="#0">{{ blog.date }}</NuxtLink>
               </div>
-              <h5 class="playfont">
+              <h5 class="playfont h-12">
                 <NuxtLink to="#0">{{ blog.title }}</NuxtLink>
+                <NuxtLink to="#0" class="text-sm" style="direction: rtl;">{{ blog.titleAr }}</NuxtLink>
               </h5>
-              <NuxtLink to="/blog-details" class="more">
-                <span class="custom-font">Read More</span>
-              </NuxtLink>
             </div>
           </div>
         </div>
