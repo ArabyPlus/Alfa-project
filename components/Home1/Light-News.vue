@@ -20,7 +20,7 @@
               <div class="text-grey-darken-2 mt-1 ">
                 <NuxtLink to="#0">{{ blog.date }}</NuxtLink>
               </div>
-              <h5 class="playfont h-12">
+              <h5 class="playfont h-20">
                 <NuxtLink to="#0">{{ blog.title }}</NuxtLink>
                 <NuxtLink to="#0" class="text-sm" style="direction: rtl;">{{ blog.titleAr }}</NuxtLink>
               </h5>
