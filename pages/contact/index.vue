@@ -2,6 +2,7 @@
   <Loading />
   <Navbar />
   <Header2 bg="/img/pg2.jpg" :title="title" :fullPath="fullPath" />
+  
   <Contact />
   <Footer />
 </template>

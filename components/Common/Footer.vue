@@ -44,12 +44,7 @@
               <h5>{{ $t("From Our Projects") }}</h5>
             </div>
             <ul>
-              <li
-                v-for="item in works.works"
-                :key="item.id"
-                class="cursor-pointer"
-                @click="navigation"
-              >
+              <li v-for="item in works.works" :key="item.id" class="cursor-pointer" @click="navigation">
                 <div class="img">
                   <img :src="item.image" alt="" />
                 </div>
@@ -70,38 +65,33 @@
         <div class="col-lg-4">
           <div class="item">
             <div class="w-[150px]">
-              <img  ref="lr" src="/public/img/logoo-dark.png" alt="logo"
-            v-if="showLogo !== false && !($colorMode.preference === 'light')" />
-            <img v-else src="/public/img/logoo.png" alt="">
+              <img ref="lr" src="/public/img/logoo-dark.png" alt="logo"
+                v-if="showLogo !== false && !($colorMode.preference === 'light')" />
+              <img v-else src="/public/img/logoo.png" alt="">
 
             </div>
             <div class="social">
               <NuxtLink to="#0"><i class="fab fa-facebook-f"></i></NuxtLink>
-              <NuxtLink to="#0"
-                ><i class="fa-brands fa-x-twitter"></i
-              ></NuxtLink>
-              <NuxtLink to="#0"><i class="fa-brands fa-tiktok"></i></NuxtLink>
+              <NuxtLink to="#0"><i class="fa-brands fa-x-twitter"></i></NuxtLink>
+              <NuxtLink to="#0"><i class="fab fa-linkedin"></i>
+              </NuxtLink>
               <NuxtLink to="#0"><i class="fab fa-instagram"></i></NuxtLink>
               <NuxtLink to="#0"><i class="fab fa-youtube"></i></NuxtLink>
             </div>
-            <div
-              class="copy-right flex flex-col justify-center align-items-center" v-if="$i18n.locale == 'ar-AR'" style="direction: rtl;"
-            >
+            <div class="copy-right flex flex-col justify-center align-items-center" v-if="$i18n.locale == 'ar-AR'"
+              style="direction: rtl;">
               <p>
                 {{ $t("footerText") }}
                 <a href="#0">{{ appData.themeAuthor }}</a>
 
               </p>
             </div>
-            <div
-              class="copy-right flex flex-col justify-center align-items-center"
-              v-if="$i18n.locale == 'en-US'"
-            >
+            <div class="copy-right flex flex-col justify-center align-items-center" v-if="$i18n.locale == 'en-US'">
               <p>
                 {{ $t("footerText") }}
                 <a href="#0">{{ appData.themeAuthor }}</a>
               </p>
-              
+
             </div>
           </div>
         </div>
