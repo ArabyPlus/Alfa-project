@@ -26,7 +26,7 @@
       </button>
 
       <!-- navbar links -->
-      <div class="collaps navbar-collapse" id="navbarSupportedContent">
+      <div class="collaps navbar-collapse" id="navbarSupportedContent" :style="$i18n.locale=='ar-AR'? 'direction:rtl': 'direction:ltr'"> 
         <ul class="navbar-nav ml-auto ">
           <li class="nav-item">
             <NuxtLink class="nav-link " style="color: grey" to="/">{{

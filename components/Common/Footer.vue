@@ -78,6 +78,8 @@
               <NuxtLink to="#0"><i class="fab fa-instagram"></i></NuxtLink>
               <NuxtLink to="#0"><i class="fab fa-youtube"></i></NuxtLink>
             </div>
+
+            <!-- ARABIC LANGUAGE -->
             <div class="copy-right flex flex-col justify-center align-items-center" v-if="$i18n.locale == 'ar-AR'"
               style="direction: rtl;">
               <p>
@@ -86,11 +88,15 @@
 
               </p>
             </div>
-            <div class="copy-right flex flex-col justify-center align-items-center" v-if="$i18n.locale == 'en-US'">
-              <p>
-                {{ $t("footerText") }}
-                <a href="#0">{{ appData.themeAuthor }}</a>
+
+            <!--ENGLISH LANGUAGE -->
+            <div class="copy-right flex  w-100 justify-center align-items-center" v-if="$i18n.locale == 'en-US'">
+              <p class="flex items-center justify-center text-center mx-auto">
+              <p>© 2024, ALFA TEMPLATE. <span>MADE WITH PASSION BY</span><img @click="toSkyLink"
+                  class="cursor-pointer w-[150px] text-center mx-auto" src="/public/img/sky-logo.png" alt=""></p>
+
               </p>
+              <!-- <a href="#0"><img class="w-[10%]" src="/public/img/sky-logo.png" alt=""> </a> -->
 
             </div>
           </div>
@@ -104,7 +110,11 @@
 import appData from "@/data/app.json";
 import works from "@/data/footer-works.json";
 
+
 const navigation = () => {
   navigateTo("/our-projects");
+};
+const toSkyLink = () => {
+  navigateTo("/skylink-eg.com/en");
 };
 </script>

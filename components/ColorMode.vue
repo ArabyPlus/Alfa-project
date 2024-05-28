@@ -1,8 +1,7 @@
 <template>
-    <div class="flex gap-2 cursor-pointer" >
+    <div class="cursor-pointer" >
         <Icon  v-if="$colorMode.preference == 'light'" name="material-symbols:nightlight" class="text-2xl" @click="$colorMode.preference= 'dark'" />
         <Icon v-else  name="material-symbols:sunny-outline-rounded" class="text-2xl"  @click="$colorMode.preference= 'light'"/>
-    
       </div>
   </template>
   
